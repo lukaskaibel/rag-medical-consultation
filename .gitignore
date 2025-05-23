@@ -1,0 +1,7 @@
+secret.py
+base_rag_results.pkl
+context_rag_results.pkl
+documents_with_questions.pkl
+.venv
+__pycache__
+model-assets
