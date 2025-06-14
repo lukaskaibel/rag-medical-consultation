@@ -1,106 +1,161 @@
 # Kaiserschnitt
 
-## Wann erfolgt ein Kaiserschnitt?
+## Wann wird ein Kaiserschnitt durchgeführt?
 
-Es gibt verschiedene Situationen und Dringlichkeiten bei der Planung eines Kaiserschnitts. So kann ein Kaiserschnitt ohne Dringlichkeit geplant werden, z.B. wenn Sie schon mehrere Kaiserschnitte hatten, eine Querlage des Kindes oder bestimmte Erkrankungen vorliegen. Die Notwendigkeit zum Kaiserschnitt kann sich jedoch auch ergeben, wenn die Geburt bereits begonnen hat und es zu einer Gefährdung von Kind und Mutter kommt (z.B. bei einem Geburtsstillstand, bei kindlichem Kaiserschnitt oder Geburtsstillstand ohne weitere sichtbare Gefährdungssituation). In dieser Situation wird der Kaiserschnitt zeitnah, jedoch unter Berücksichtigung einer sorgfältigen Prüfung, dringlicher Kaiserschnitt, der zügig durchgeführt wird, erfolgt. Bei einer unmittelbaren oder deutlichen Beeinträchtigung, die nicht unmittelbar lebensbedrohlich ist (z.B. Geburtsstillstand mit sich abzeichnender Gefährdung von Mutter und/oder Kind), ein Notfallkaiserschnitt, der unverzüglich ohne Zeitverzögerung durchgeführt wird. Er ist erforderlich, wenn das Leben des Kindes oder der Mutter unmittelbar bedroht ist (z.B. schwerer, therapieresistenter Herzfrequenzabfall des Kindes, sehr schlechter Wert der Blutgasanalyse des Kindes, Uterusruptur, Eklampsie, Abruptio).
+Ein Kaiserschnitt kann aus unterschiedlichen Gründen und mit variierender Dringlichkeit notwendig werden. Er kann im Voraus geplant sein, etwa wenn Sie bereits mehrere Kaiserschnitte hatten, das Kind sich in Querlage befindet oder bestimmte Erkrankungen vorliegen. In anderen Fällen ergibt sich der Bedarf erst während der laufenden Geburt – etwa bei Geburtsstillstand oder wenn Mutter oder Kind gefährdet sind. Dabei unterscheidet man:
 
-In manchen Situationen, z.B. beim Beckenendlage oder einem sehr großen Kind, kann der Kaiserschnitt eine Alternative zur normalen Geburt sein. In diesen Fällen, oder falls Sie aus persönlichen Gründen einen Kaiserschnitt bevorzugen, werden wir die Vor- und Nachteile des Kaiserschnitts und der Spontangeburt (Kaiserschnitt-, Zangen- oder Vakuumbeendigung beim Versuch der Spontangeburt) sehr ausführlich mit Ihnen besprechen und Sie beraten, damit Sie entscheiden können.
+* **Geplanter Kaiserschnitt ohne akuten Handlungsbedarf**, z. B. bei bekannter Querlage oder nach mehreren vorangegangenen Kaiserschnitten.
+* **Dringlicher Kaiserschnitt**, wenn sich eine kritische Situation entwickelt, z. B. Geburtsstillstand mit beginnender Gefährdung, jedoch ohne akute Lebensbedrohung.
+* **Notfallkaiserschnitt**, der ohne Verzögerung erfolgen muss, z. B. bei massiven kindlichen Herzfrequenzabfällen, sehr schlechten Blutgaswerten, einer Gebärmutterruptur, Eklampsie oder einer Plazentalösung.
 
-## Wie wird der Eingriff durchgeführt?
+Auch bei besonderen Umständen wie Beckenendlage oder einem sehr großen Kind kann ein Kaiserschnitt eine medizinisch sinnvolle Alternative zur vaginalen Geburt darstellen. Sollten Sie aus persönlichen Gründen eine Schnittentbindung bevorzugen, erfolgt eine ausführliche Beratung, in der alle Vor- und Nachteile gegenüber einer natürlichen Geburt (inkl. möglicher Zangen- oder Vakuumgeburt) mit Ihnen besprochen werden, damit Sie eine fundierte Entscheidung treffen können.
 
-Der Kaiserschnitt erfolgt in regionaler Betäubung (Spinal-/Periduralanästhesie) oder in Allgemeinanästhesie. Über die Einzelheiten und Risiken des Betäubungsverfahrens werden Sie gesondert aufgeklärt.
+## Wie läuft der Kaiserschnitt ab?
 
-Die Blase wird mit einem Katheter durch die Harnröhre entleert. Anschließend wird unter sterilen und eventuell mehreren sterilen Tüchern ein 20 cm langer Querschnitt über der Schamhaargrenze gelegt.
+Der Eingriff erfolgt in der Regel unter Regionalanästhesie (Spinal- oder Periduralanästhesie) oder, seltener, unter Vollnarkose. Über das gewählte Narkoseverfahren werden Sie separat informiert.
 
-Zur Vermeidung von Infektionen wird ein Antibiotikum verabreicht. Dies erfolgt im Allgemeinen vor Beginn des Kaiserschnitts.
+Zur Vorbereitung wird Ihre Harnblase über einen Katheter entleert. Dann legt das OP-Team unter sterilen Bedingungen einen etwa 20 cm langen Schnitt knapp oberhalb der Schamhaargrenze an.
 
-Durch einen Schnitt, meist knapp oberhalb der Schamhaar-linie, öffnet die Ärztin/der Arzt zunächst die Bauchdecke, den Bauchraum und dann die Gebärmutterwand. Hierbei wird das Gewebe so weit wie möglich gedehnt und nicht geschnitten, da dies schonender für das Gewebe ist und sich hierdurch die Operationszeit verkürzt und weniger spätere Komplikationen (z.B. Fieber, Schmerzen) zu erwarten sind. Das Kind wird vorsichtig aus der Gebärmutter genommen und der Mutterkuchen (Plazenta) entfernt. Meist erhalten Sie Medikamente, die das Zusammenziehen (Kon-traktion) der Gebärmutter fördern und hierdurch den Blutverlust verringern. Anschließend werden die Gebärmutter, der Bauchraum und die Bauchdecke wieder verschlossen.
-Hierbei wird möglichst wenig Nahtmaterial verwendet, um die Operationszeit zu verkürzen und Schmerzen nach der
-Vor dem Verschluss der Bauchdecke mit Naht oder Klammern werden selten und nur bei Bedarf Drainagen einge-legt, damit Wundsekret und Blut abfließen können.
+Vor Beginn des Eingriffs erhalten Sie ein Antibiotikum zur Infektionsprophylaxe.
+
+Die Bauchdecke, der Bauchraum und anschließend die Gebärmutter werden eröffnet. Dabei wird das Gewebe nach Möglichkeit gedehnt statt geschnitten, um die Heilung zu fördern und Komplikationen wie Schmerzen oder Fieber zu reduzieren. Das Baby wird vorsichtig entbunden, danach wird die Plazenta entfernt. Häufig werden Medikamente verabreicht, die das Zusammenziehen der Gebärmutter unterstützen, um den Blutverlust gering zu halten. Anschließend werden Gebärmutter, Bauchraum und Bauchdecke in mehreren Schichten wieder vernäht – dabei kommt möglichst wenig Nahtmaterial zum Einsatz.
+
+Drainagen zum Ableiten von Blut oder Wundsekret werden nur in Ausnahmefällen und bei Bedarf eingesetzt, bevor der Hautverschluss (durch Nähte oder Klammern) erfolgt.
 
 ## Mögliche Erweiterungen des Eingriffs
 
-In seltenen Fällen (wenn der Kopf des Kindes schon sehr tief steht) muss der Kopf des Kindes während des Eingriffs durch die Vagina nach oben geschoben werden. Selten wird eine Erweiterung des Zugangs zur Gebärmutter durch einen TSchnitt (zusätzlicher Längsschnitt an der Gebärmutter zur bereits erfolgten queren Eröffnung) und/oder eine Saugglocke oder Zange zur Entwicklung des Kindes erforderlich.
+In besonderen Fällen, beispielsweise wenn der Kopf des Babys bereits tief im Becken liegt, kann es notwendig sein, diesen während der Operation durch die Scheide vorsichtig zurückzuschieben. Selten muss der Schnitt in der Gebärmutter erweitert werden – z. B. durch einen sogenannten T-Schnitt (ein zusätzlicher Längsschnitt zur üblichen Quereröffnung) – oder die Geburt wird mithilfe einer Saugglocke oder Zange unterstützt.
 
-Wenn der Muttermund noch verschlossen ist, kann eine Aufdehnung während des Kaiserschnitts von oben sinnvoll sein. Dadurch wird ein besserer Austritt des Wochenflusses gewährleistet. Aufgrund von Komplikationen während des Eingriffs (z.B. festsitzender, nicht einfach zu entfernender Mutterkuchen; unstillbare Blutungen) können weitere zusätzliche Maßnahmen (z.B. Ausschabung, Kompression der Gebärmutter durch verschiedene medikamentöse und operative Maßnahmen, Tamponade, Entfernung der Gebärmutter) medizinisch erforderlich werden. Falls keine andere Wahl besteht, darf der Arzt/die Ärztin Ihr Einverständnis in diese Maßnahmen voraussetzen. Falls schon jetzt mit einer Erweiterung des geplanten Eingriffs gerechnet wird, werden Sie über Vor und Nachteile, mögliche Risiken und Langzeitfolgen der zusätzlichen Maßnahmen gesondert aufgeklärt.
+Ist der Muttermund zum Zeitpunkt des Kaiserschnitts noch verschlossen, kann er während des Eingriffs von oben gedehnt werden. Dies kann den Abfluss des Wochenflusses verbessern.
 
-Ist Ihre Blutgruppe Rhesus-negativ und die Ihres Kindes aber Rhesus-positiv, erhalten Sie nach der Geburt eine Imp-fung, um Rhesuskomplikationen bei späteren Schwangerschaften vorzubeugen (Anti-D-Prophylaxe). Sollte dies bei Ihnen der Fall sein, werden Sie darüber gesondert aufgeklärt.
+Kommt es während des Kaiserschnitts zu Komplikationen, z. B. wenn die Plazenta schwer lösbar ist oder Blutungen sich nicht kontrollieren lassen, können zusätzliche Maßnahmen notwendig werden. Dazu zählen Ausschabungen, medikamentöse Blutstillung, mechanische Kompression der Gebärmutter (z. B. mit Tamponade), in sehr seltenen Fällen auch die Entfernung der Gebärmutter (Hysterektomie). Sollte eine dieser Maßnahmen bereits im Vorfeld absehbar sein, erfolgt eine gesonderte Aufklärung über Nutzen, Risiken und mögliche Spätfolgen.
 
-Gleichzeitig mit einer Schnittentbindung kann eine Sterilisation erfolgen. Diese Maßnahme sollten Sie sich jedoch sehr sorgfältig überlegen und auf keinen Fall kurz vor der Geburt entscheiden. Falls Sie eine Sterilisation wünschen, werden Sie über Risiken und Folgen anhand eines eigenen Aufklärungsbogens aufgeklärt.
+Bei Rhesus-negativer Blutgruppe der Mutter und Rhesus-positivem Kind erhalten Sie nach der Geburt eine Anti-D-Prophylaxe, um möglichen Komplikationen in späteren Schwangerschaften vorzubeugen. Auch hierzu werden Sie im persönlichen Gespräch informiert.
+
+Wenn Sie eine dauerhafte Empfängnisverhütung durch Sterilisation wünschen, kann dieser Eingriff mit dem Kaiserschnitt kombiniert werden. Diese Entscheidung sollte jedoch gut überlegt sein – ein Entschluss unmittelbar vor der Geburt wird nicht empfohlen. Im Falle eines geplanten Eingriffs erhalten Sie dazu eine separate Aufklärung über Risiken und Konsequenzen.
 
 ## Risiken und mögliche Komplikationen
 
-Trotz aller Sorgfalt kann es zu – u. U. auch lebensbedrohlichen – Komplikationen kommen, die weitere Behandlungsmaßnahmen/Operationen erfordern. Die Häufigkeitsangaben sind eine allgemeine Einschätzung und sollen helfen, die Risiken untereinander zu gewichten. Sie entsprechen nicht den Definitionen für Nebenwirkungen in den Beipackzetteln von Medikamenten. Vor- und Begleiterkrankungen sowie individuelle Besonderheiten können die Häufigkeiten von Komplikationen wesentlich beeinflussen.
+Trotz größter Sorgfalt kann es bei einem Kaiserschnitt – wie bei jeder Operation – zu ernsthaften, teils lebensbedrohlichen Komplikationen kommen. Die folgenden Risiken sind allgemein beschrieben und können durch individuelle Faktoren wie Vorerkrankungen, vorherige Operationen oder anatomische Besonderheiten beeinflusst werden.
 
-Verletzungen benachbarter Organe (z. B. Blutgefäße, Harnblase, Harnleiter, Darm, Magen) sind möglich, die je nach verletztem Organ z. B. eine ausgiebige Blutstillung,  
-die operative Anlage eines über längere Zeit liegenden Bauchdeckenkatheters, eines Blasendauerkatheters, einer Nierenfistel oder eines künstlichen Darmausgangs nötig machen können. Das Risiko ist erhöht nach Voroperationen, bei Verwachsungen oder bei schwierigen anatomischen Verhältnissen (z. B. Übergewicht).
+**Verletzungen benachbarter Organe:**
+Bei der Operation können Blutgefäße, Harnblase, Harnleiter, Darm oder Magen verletzt werden. Dies kann weitere Eingriffe erforderlich machen, etwa zur Blutstillung, zur Anlage eines Katheters, einer Harnableitung oder sogar eines künstlichen Darmausgangs. Das Risiko ist erhöht bei Voroperationen, Verwachsungen oder starkem Übergewicht.
 
-Stärkere, nicht beherrschbare Blutungen oder Nachblutungen können auftreten, die eine Übertragung von Blut oder Bestandteilen daraus erfordern oder im Einzelfall (z. B. wenn die Plazenta vor dem Muttermund liegt oder in die Gebärmutter eingewachsen ist) sogar die Gebärmutterentfernung notwendig machen. Nachblutungen können auch mehrere Tage nach dem Eingriff auftreten. Das Risiko der Übertragung einer Hepatitis- oder HIV-Infektion (AIDS) durch Fremdblutkonserven ist heute extrem gering. Nach einer Transfusion kann durch eine Kontrolluntersuchung festgestellt werden, ob es wider Erwarten zu einer derartigen Infektion gekommen ist.
+**Starke Blutungen oder Nachblutungen:**
+Massive Blutverluste können eine Bluttransfusion erforderlich machen. In besonderen Fällen – etwa bei tief sitzender oder eingewachsener Plazenta – kann eine Entfernung der Gebärmutter notwendig sein. Nachblutungen können auch verzögert, d. h. erst Tage nach dem Eingriff, auftreten. Das Risiko, durch Spenderblut Infektionen wie HIV oder Hepatitis zu übertragen, ist heute extrem gering, wird aber durch eine Kontrolluntersuchung nach der Transfusion weiter abgesichert.
 
-In manchen Fällen zieht sich die Gebärmutter nach der Geburt des Kindes und des Mutterkuchens nicht ausreichend zusammen. Dies kann zu einem massiven Blutverlust führen. Im Falle einer fehlenden Spannung der Muskulatur der Gebärmutter (Atonie) wird in der Regel zunächst versucht, dies durch die Gabe muskelstimulierender (kontraktionsfördernder) Medikamente (z. B. Wehenhormon Oxytocin, Prostaglandinpräparate) zu überwinden. Wenn dies nicht ausreichend ist, kann es in seltenen Fällen notwendig werden, eine Tamponade in die Gebärmutterhöhle einzulegen oder die Gebärmutter mit durchstechenden Nähten zusammenzudrücken bzw. Gefäße zu unterbinden oder zu verschließen (Embolisation) oder die Gebärmutter zu entfernen. Bei Entfernung der Gebärmutter ist keine weitere Schwangerschaft möglich. In einigen Fällen kommt es auch erst nach Beendigung des Kaiserschnitts zu einer Atonie.  
-Dies kann eine zusätzliche Operation mit den oben genannten Maßnahmen erforderlich machen.
+**Versagen der Gebärmutterkontraktion (Atonie):**
+Zieht sich die Gebärmutter nach der Entbindung nicht ausreichend zusammen, kann es zu schwerem Blutverlust kommen. In solchen Fällen werden zunächst Medikamente wie Oxytocin oder Prostaglandine eingesetzt. Reichen diese nicht aus, kann eine Tamponade, das Abbinden von Gefäßen oder in sehr seltenen Fällen eine Gebärmutterentfernung erforderlich sein.
 
-Eine vorübergehende Störung der Blasentätigkeit ist möglich. Sie kann durch die zeitweise Einlage eines Blasenkatheters oder durch eine Einmalkatheterisierung in den meisten Fällen problemlos behandelt werden.  
-Wenn ein Blasenkatheter länger liegt, treten vermehrt Harnblasenentzündungen auf, die einer medikamentösen Behandlung bedürfen.
+**Blasenfunktionsstörungen:**
+Eine vorübergehende Störung der Blasenentleerung ist möglich und wird meist durch kurzfristige Katheterisierung gut behandelt. Bei längerer Katheterverwendung können Harnwegsinfektionen auftreten, die antibiotisch behandelt werden müssen.
 
-Infektionen (zum Beispiel der Gebärmutter, der Harnwege, Bauchfell- oder Lungenentzündung) können auftreten, die durch Gabe von Antibiotika (bei der Gebärmutterinfektion durch zusätzliche Gabe von kontraktionsfördernden Mitteln) meist gut beherrschbar sind. Unter ungünstigen Umständen kann es zu einer lebensbedrohlichen Blutvergiftung (Sepsis) kommen, die intensivmedizinisch behandelt werden muss.
+**Infektionen:**
+Entzündungen der Gebärmutter, Harnwege, des Bauchfells oder der Lunge können vorkommen. Diese sind in der Regel gut mit Antibiotika und kontraktionsfördernden Mitteln behandelbar. In Einzelfällen kann es zu einer schweren Blutvergiftung (Sepsis) kommen, die intensivmedizinisch behandelt werden muss.
 
-Bei einer massiven Gebärmutterinfektion bzw. Infektion im Bauchraum muss eventuell eine erneute Operation, ggf. mit Entfernung der Gebärmutter und der Eierstöcke, erfolgen.  
-Es ist nach Entfernung der Gebärmutter keine Schwangerschaft mehr möglich. Wenn die Eierstöcke entfernt wurden, treten meist Wechseljahresbeschwerden auf.
+**Schwere Infektionen des Bauchraums:**
+Bei ausgedehnter Gebärmutter- oder Bauchraumentzündung kann eine erneute Operation notwendig sein, ggf. mit Entfernung der Gebärmutter und/oder Eierstöcke. Dies hat zur Folge, dass keine Schwangerschaft mehr möglich ist und Wechseljahrsbeschwerden auftreten können.
 
-Bei einer Wundinfektion können Nachoperationen (z. B. Eröffnung und Spülung der Wunde, eventuell längere Behandlung mit Vakuumverband und ggf. mit späterer erneuter Naht) erforderlich werden. Wundinfektionen können auch zu überschießender Narbenbildung oder zum Narbenbruch führen. Eine erneute Operation ist ggf. zur Behandlung notwendig.
+**Wundheilungsstörungen:**
+Infektionen der OP-Wunde können Nachbehandlungen wie Spülung, Drainage oder erneute Naht erforderlich machen. Es kann zu überschießender Narbenbildung, Narbenbrüchen oder Narbenendometriose kommen. Diese Komplikationen können operative Korrekturen nötig machen.
 
-Sehr selten sind Funktionseinschränkungen der Eileiter infolge von aufsteigenden Entzündungen, die aber in der Regel mit Antibiotika gut behandelbar sind. In sehr seltenen Fällen kann es jedoch zur Verklebung der Eileiter kommen. Eine spätere Schwangerschaft ist dann nur noch durch künstliche Befruchtung möglich.
+**Eileiterschädigungen:**
+Entzündungen können in seltenen Fällen die Eileiter verkleben, was eine spätere Schwangerschaft nur noch per künstlicher Befruchtung möglich macht.
 
-Sehr selten ist ein Darmverschluss infolge vorübergehender Darmlähmung oder Verwachsungen im Bauchraum – auch in späteren Jahren. Eine erneute Operation und medikamentöse Behandlungen können dann erforderlich werden.
+**Darmverschluss:**
+Durch Verwachsungen im Bauchraum kann – auch Jahre später – ein Darmverschluss entstehen. Hier kann eine erneute Operation notwendig sein.
 
-Als Folge jedes operativen Eingriffs können sich Blutgerinnsel in den Venen bilden und ein Gefäß verschließen (Thrombose). Wird ein Gerinnsel mit dem Blutstrom in die Lunge abgeschwemmt, kann in der Folge eine lebensbedrohliche Lungenembolie entstehen. Dieses Risiko ist bei Schwangerschaft und Geburt erhöht und steigt beim Kaiserschnitt gegenüber einer normalen Geburt weiter an. Meist wird vorbeugend ein blutgerinnungshemmendes Medikament gegeben, das jedoch das Risiko von Blutungen erhöht. Nach Injektion von Heparin kann es selten zu einer lebensbedrohlichen Störung der Blutgerinnung mit erhöhter Gerinnselbildung und Gefäßverschluss (HIT II) kommen.
+**Thrombose und Embolie:**
+Nach der Operation kann es zur Bildung von Blutgerinnseln in den Venen kommen. Wird ein Gerinnsel in die Lunge geschwemmt, droht eine lebensbedrohliche Lungenembolie. Zur Vorbeugung wird häufig ein blutgerinnungshemmendes Mittel wie Heparin verabreicht. In seltenen Fällen kann es dadurch zu einer gefährlichen Störung der Blutgerinnung (HIT Typ II) kommen.
 
-Sehr selten kommt es zu einer Fruchtwasserembolie. Dann werden intensivmedizinische Maßnahmen notwendig.
+**Fruchtwasserembolie:**
+In sehr seltenen Fällen kann Fruchtwasser in den Blutkreislauf gelangen und eine akute lebensbedrohliche Reaktion auslösen, die intensivmedizinisch behandelt werden muss.
 
-Haut-/Gewebe-/Nervenschäden durch die Lagerung und eingriffsbegleitende Maßnahmen (z. B. Einspritzungen, Desinfektionen, Laser, elektrischer Strom) sind selten. Mögliche, u. U. dauerhafte Folgen: Schmerzen, Entzündungen, Absterben von Gewebe, Narben sowie Empfindungs-, Funktionsstörungen, Lähmungen (z. B. der Gliedmaßen). Eine empfindliche oder schmerzhafte Narbe im Bereich des Bauchschnitts kann auftreten. Die Missempfindungen bleiben häufig sehr lange bestehen, bessern sich aber meist im Laufe der Zeit.
+**Lagerungsschäden und Nervenverletzungen:**
+Durch Lagerung während des Eingriffs oder begleitende Maßnahmen (z. B. Einspritzungen, Desinfektion, elektrische Geräte) kann es zu Nervenreizungen, Schmerzen, Taubheitsgefühl, Narben oder – sehr selten – Lähmungen kommen. Auch eine anhaltend schmerzhafte Narbe ist möglich.
 
-Allergie/Unverträglichkeit (z. B. auf Latex, Medikamente) kann zu einem akuten Kreislaufschock führen, der intensivmedizinische Maßnahmen erfordert. Sehr selten sind schwerwiegende, u. U. bleibende Schäden (z. B. Organversagen, Hirnschädigung, Lähmungen).
+**Allergien und Unverträglichkeiten:**
+Reaktionen auf Medikamente, Latex oder Desinfektionsmittel können im Extremfall zu einem akuten Kreislaufschock führen. In sehr seltenen Fällen können bleibende Schäden wie Organversagen oder Lähmungen auftreten.
 
-Durch Verschleppung von Zellen aus der Gebärmutterschleimhaut kann es in seltenen Fällen zu einer Endometriose im Bauchraum oder in der Narbe (Narbenendometriose) kommen. Das Gewebe wächst dabei wie Gebärmutterschleimhaut außerhalb der Gebärmutter und kann zu Schmerzen oder auch zu einer verminderten Fruchtbarkeit führen.
+**Narbenendometriose:**
+In Ausnahmefällen wachsen Zellen der Gebärmutterschleimhaut in der OP-Narbe oder im Bauchraum. Diese können zyklische Schmerzen und eine eingeschränkte Fruchtbarkeit verursachen.
 
-Die Bauchmuskulatur kann auseinanderweichen (Rektusdiastase). Dies ist häufig bereits durch die Schwangerschaft bedingt und wird mit Physiotherapie und Rückbildungsgymnastik behandelt. In einigen Fällen kommt es im Bereich der Narbe zu einem Bauchwandbruch, der eine weitere Operation notwendig machen kann.
+**Rektusdiastase und Narbenbruch:**
+Durch die Schwangerschaft können die geraden Bauchmuskeln auseinanderweichen. Dies kann durch Rückbildungsgymnastik verbessert werden. In manchen Fällen entsteht ein Narbenbruch, der operativ versorgt werden muss.
 
-Gebär-Kaiserschnitt (Schnittentbindung, Sectio)  
-Über Ihre speziellen Risiken und damit verbundenen möglichen Komplikationen informiert Sie Ihr Arzt/Ihre Ärztin im Aufklärungsgespräch näher. Bitte fragen Sie im Aufklärungsgespräch nach allem, was Ihnen unklar und wichtig erscheint.
+## Risiken für das Kind
 
-## Gefahren für das Kind
+Auch für das Neugeborene können im Zusammenhang mit einem Kaiserschnitt Risiken bestehen – sowohl kurzfristig als auch im Hinblick auf die spätere Entwicklung.
 
-Bei Kindern, die durch Kaiserschnitt geboren werden, kommt es häufiger zu vorübergehenden Anpassungsstörungen (z. B. gestörte Atmung mit der Notwendigkeit, Sauerstoff zu geben oder künstlich zu beatmen) als bei spontan Geborenen. Die Komplikationsrate ist bei einer Allgemeinnarkose sowie bei einem Kaiserschnitt bei unreifem Kind bzw. in einer frühen Schwangerschaftswoche erhöht.
+**Anpassungsstörungen nach der Geburt:**
+Kinder, die per Kaiserschnitt zur Welt kommen, zeigen häufiger vorübergehende Probleme bei der Umstellung auf das Leben außerhalb der Gebärmutter – insbesondere bei der Atmung. In manchen Fällen ist die Gabe von Sauerstoff oder sogar eine vorübergehende künstliche Beatmung erforderlich. Das Risiko ist erhöht, wenn der Eingriff unter Vollnarkose durchgeführt wird oder das Kind noch sehr unreif ist.
 
-Liegt das Kind ungünstig eingekeilt in der Gebärmutter, kann es in sehr seltenen Fällen beim Herausziehen des Kindes zu Verletzungen im Bereich der Arme, der Schultern, der Beine oder Hüften kommen wie Knochenbrüchen (Frakturen) oder Ausrenkungen von Gelenken (Luxationen). Dies muss anschließend weiter medizinisch behandelt werden.
+**Geburtsverletzungen:**
+Ist das Kind ungünstig im Becken fixiert, kann es beim Herausheben aus der Gebärmutter zu Verletzungen an Armen, Schultern, Beinen oder Hüften kommen – in seltenen Fällen zu Brüchen oder Ausrenkungen (Luxationen). Diese Verletzungen sind in der Regel gut behandelbar.
 
-Selten ist eine Schnittverletzung des Kindes bei Eröffnung der Gebärmutter, die in den meisten Fällen von selbst abheilt. Selten ist eine Naht zur Versorgung der Verletzung notwendig. Dies kann zu einer sichtbaren Narbenbildung beim Kind führen.
+**Schnittverletzungen:**
+Beim Öffnen der Gebärmutter kann es sehr selten zu kleinen Verletzungen der kindlichen Haut kommen. Meist heilen diese von selbst. Nur in Einzelfällen ist eine Naht erforderlich. Dabei kann eine bleibende Narbe entstehen.
 
-In seltenen Fällen kann es notwendig werden, auch bei einer Kaiserschnittentbindung eine Saugglocke oder eine Zange zur Entwicklung des Kindes zu Hilfe zu nehmen. Die dadurch möglicherweise verursachten Druckstellen bzw. Abschürfungen, Blutergüsse und Hautschwellungen am kindlichen Kopf bilden sich meist nach einigen Tagen von selbst wieder zurück. Selten ist eine Behandlung erforderlich.
+**Einsatz von Saugglocke oder Zange:**
+Auch bei einem Kaiserschnitt kann unter Umständen eine Saugglocke oder Zange zum Einsatz kommen. Diese kann beim Kind Druckstellen, Blutergüsse oder Hautabschürfungen verursachen, die sich normalerweise rasch zurückbilden.
 
-Es gibt Hinweise, dass Kinder, die durch Kaiserschnitt geboren werden, häufiger an Asthma, Diabetes, entzündlichen Darmerkrankungen und Übergewicht bzw. Adipositas leiden als Kinder, die durch eine vaginale Geburt zur Welt kamen. Hierbei sind die Studienergebnisse teilweise unsicher oder widersprüchlich. Insgesamt ist über die Kurz- und Langzeitfolgen eines Kaiserschnitts für das Kind wenig bekannt.
+**Langfristige gesundheitliche Einflüsse:**
+Es gibt Hinweise, dass per Kaiserschnitt geborene Kinder möglicherweise häufiger an bestimmten chronischen Erkrankungen wie Asthma, Diabetes, entzündlichen Darmerkrankungen oder Übergewicht leiden. Die wissenschaftliche Datenlage hierzu ist jedoch uneinheitlich – eindeutige Beweise für einen Zusammenhang fehlen bislang.
 
-## Auswirkungen auf spätere Schwangerschaften  
+## Auswirkungen auf künftige Schwangerschaften
 
-Grundsätzlich ist nach einer Schnittentbindung eine Spontangeburt bei der nächsten Schwangerschaft möglich. Die Wahrscheinlichkeit dafür ist höher, wenn neben einem Kaiserschnitt bereits eine Spontangeburt vorangeht. Voraussetzungen für eine Spontangeburt nach Kaiserschnitt sind eine Einlingsschwangerschaft in Kopflage und die Entbindung in einer Klinik, in der in Notfallsituationen (insbesondere teilweises oder vollkommenes Einreißen der alten Narbe) jederzeit Maßnahmen ergriffen werden können. Sie werden bei der Besprechung des Geburtsmodus ausführlich über die Vorteile sowie Risiken einer geplanten Spontangeburt und eines erneuten Kaiserschnitts in Ihrer speziellen Situation beraten, sodass Sie Ihre Entscheidung in Ruhe treffen können.
+Ein Kaiserschnitt kann Auswirkungen auf nachfolgende Schwangerschaften und Geburten haben. Grundsätzlich ist nach einem Kaiserschnitt auch eine spontane vaginale Geburt möglich. Die Wahrscheinlichkeit für eine erfolgreiche natürliche Entbindung steigt, wenn Sie bereits vorher eine Spontangeburt hatten.
 
-In seltenen Fällen kann es vorkommen, dass bei späteren Schwangerschaften bzw. Spontangeburten die alte Narbe an der Gebärmutter aufreißt (Uterusruptur). Dies gefährdet Mutter und Kind. Ein Notfallkaiserschnitt und eine chirurgische Versorgung sind erforderlich. Das Risiko ist vor allem bei mehreren vorangegangenen Kaiserschnitten, einer Erweiterung des Schnittes bei einem vorausgegangenen Kaiserschnitt (zusätzlicher Längsschnitt an der Gebärmutter), einem kurzen zeitlichen Abstand zum letzten Kaiserschnitt sowie bei einer Geburtseinleitung oder Wehenunterstützung stark erhöht. Um diese mögliche Komplikation möglichst frühzeitig zu erkennen, werden Sie intensiv überwacht.
+**Spontangeburt nach Kaiserschnitt:**
+Für eine vaginale Geburt nach vorangegangenem Kaiserschnitt müssen bestimmte Voraussetzungen erfüllt sein: Es sollte sich um eine Einlingsschwangerschaft in Schädellage handeln, und die Geburt sollte in einem Krankenhaus erfolgen, das auf mögliche Notfallsituationen wie einen Gebärmutterriss vorbereitet ist. Die Chancen und Risiken einer geplanten Spontangeburt werden individuell mit Ihnen besprochen.
 
-Bei weiteren Schwangerschaften nach vorausgegangenem Kaiserschnitt treten häufiger Plazentationsstörungen auf. Hierunter versteht man z. B. den falschen Sitz der Plazenta (z. B. vor dem Muttermund – Placenta praevia). Dadurch ist das Risiko für Frühgeburten sowie für lebensbedrohliche Blutungen für Mutter und Kind deutlich erhöht. In diesen Fällen ist erneut ein Kaiserschnitt notwendig, der durch eine verstärkte Blutungsneigung erschwert sein kann. Auch ein Einwachsen der Plazenta in die Gebärmutter (Placenta accreta/increta) und Plazentalösungsstörungen, bei denen die Plazenta manuell gelöst und ausgeschabt werden muss, treten häufiger auf als nach Spontangeburten. Bei all diesen Plazentationsstörungen ist es möglich, dass zusätzliche operative Maßnahmen erforderlich sind (z. B. Kompression der Gebärmutter, Tamponade) und evtl. die Gebärmutter entfernt werden muss.
+**Gebärmutterriss (Uterusruptur):**
+In seltenen Fällen kann sich während einer nachfolgenden Geburt die alte Kaiserschnittnarbe an der Gebärmutter öffnen. Dies stellt einen akuten Notfall für Mutter und Kind dar und erfordert eine sofortige Operation. Das Risiko ist erhöht bei:
 
-Ein unzureichendes Zusammenziehen der Gebärmutter (Atonie) kann zu sehr starken Blutungen führen. Es werden Medikamente verabreicht, manchmal ist auch die vorübergehende Einlage einer Tamponade in die Gebärmutter sinnvoll. Selten ist bei einer Spontangeburt ein zusätzlicher Bauchschnitt erforderlich, um die Gebärmutter mit Nähten (die evtl. in einem weiteren Eingriff wieder entfernt werden) zusammenzudrücken. Sehr selten ist eine Gebärmutterentfernung erforderlich.
+* mehreren vorausgegangenen Kaiserschnitten,
+* früherer Erweiterung der Gebärmutterschnittführung (z. B. Längsschnitt),
+* kurzer Zeitspanne seit dem letzten Kaiserschnitt,
+* Geburtseinleitung oder wehenfördernden Medikamenten.
 
-Sehr selten kann sich eine Schwangerschaft in der Kaiserschnittnarbe der Gebärmutter absiedeln. Solch eine Schwangerschaft ist nicht überlebensfähig und gefährdet die Mutter in höchstem Maße (Gebärmutterriss mit schweren Blutungen in der Frühschwangerschaft), sodass sie operativ oder medikamentös beendet werden muss.
+Daher wird unter diesen Umständen besonders sorgfältig überwacht.
 
-Falls aufgrund von Komplikationen die Gebärmutter entfernt werden musste, ist keine Schwangerschaft mehr möglich.
+**Plazentationsstörungen:**
+Nach einem Kaiserschnitt treten häufiger Komplikationen mit der Plazenta auf. Beispiele sind:
 
-Es gibt Hinweise darauf, dass Frauen, die ein Kind durch Kaiserschnitt geboren haben, in den ersten Jahren nach dem Kaiserschnitt häufiger Probleme haben, wieder schwanger zu werden und eventuell auch häufiger eine Eileiterschwangerschaft sowie eine Totgeburt in der nächsten Schwangerschaft erleiden. Die Studienergebnisse sind hierzu unsicher und teilweise widersprüchlich.
+* **Placenta praevia:** die Plazenta liegt vor dem Muttermund, was Blutungen und Frühgeburten begünstigt,
+* **Placenta accreta/increta:** die Plazenta ist mit der Gebärmutter verwachsen oder eingewachsen,
+* **Plazentalösungsstörungen:** die Plazenta lässt sich nach der Geburt nicht vollständig lösen.
 
-Obwohl Kaiserschnitte weltweit sehr häufig durchgeführt werden, ist über die Kurz- und Langzeitfolgen für die Frau vieles noch unbekannt.
+Solche Fälle erfordern oft einen erneuten Kaiserschnitt und können zusätzliche Maßnahmen wie eine Tamponade, Gefäßverschluss oder sogar die Entfernung der Gebärmutter notwendig machen.
 
-## Verhaltenshinweise
+**Starke Nachblutungen (Atonie):**
+Ein mangelndes Zusammenziehen der Gebärmutter kann nach einer Spontangeburt zu starkem Blutverlust führen. Dann werden Medikamente gegeben, ggf. eine Tamponade eingelegt. In seltenen Fällen ist ein zusätzlicher Bauchschnitt nötig, um die Blutung zu stoppen – auch hier kann eine Entfernung der Gebärmutter notwendig werden.
 
-Suchen Sie bei Beschwerden, z. B. bei Fieber, Bauchschmerzen, Rötung des Bauchschnitts, Blutungen, die über den üblichen Wochenfluss hinausgehen, Ausbleiben bzw. plötzliches Aufhören des Wochenflusses sowie bei Schmerzen, Rötung bzw. Schwellung in einem Bein oder bei Atemnot sofort ärztliche Hilfe auf – auch wenn diese Beschwerden erst einige Tage nach Ihrer Entlassung aus der Klinik auftreten.
+**Schwangerschaft in der Kaiserschnittnarbe:**
+Sehr selten nistet sich eine Schwangerschaft in der früheren Kaiserschnittnarbe ein. Diese kann nicht erhalten werden und muss operativ oder medikamentös beendet werden, da sie mit hohem Blutungsrisiko und Lebensgefahr verbunden ist.
 
-Stellen Sie die Betreuung durch eine Hebamme zu Hause sicher und führen Sie auch nach einem Kaiserschnitt in entsprechendem zeitlichem Abstand die Rückbildungsgymnastik durch. Bitte nehmen Sie auch den vereinbarten Nachuntersuchungstermin wahr.
+**Fruchtbarkeit nach Kaiserschnitt:**
+Einige Studien deuten darauf hin, dass Frauen nach einem Kaiserschnitt häufiger Schwierigkeiten haben, erneut schwanger zu werden. Auch das Risiko für Eileiterschwangerschaften oder Totgeburten in Folge-Schwangerschaften kann erhöht sein – allerdings sind die Daten hierzu nicht eindeutig und teils widersprüchlich.
+
+**Langzeitfolgen:**
+Obwohl der Kaiserschnitt weltweit häufig durchgeführt wird, sind viele mögliche Langzeitfolgen für Frauen bislang noch nicht ausreichend erforscht.
+
+## Verhaltenshinweise nach dem Kaiserschnitt
+
+Bitte beachten Sie nach der Entlassung aus der Klinik bestimmte Warnsignale, die auf Komplikationen hinweisen können. Suchen Sie umgehend ärztliche Hilfe auf, wenn eines der folgenden Symptome bei Ihnen auftritt:
+
+* Fieber über 38 °C,
+* zunehmende oder anhaltende Schmerzen im Unterbauch,
+* Rötung, Schwellung oder Schmerzen im Bereich des Bauchschnitts,
+* Blutungen, die stärker sind als der normale Wochenfluss,
+* plötzliches Ausbleiben oder abruptes Ende des Wochenflusses,
+* Schwellung, Rötung oder Schmerzen in einem Bein,
+* Atemnot oder plötzliche Kurzatmigkeit.
+
+Auch wenn diese Beschwerden erst einige Tage nach der Entlassung auftreten, sollten sie nicht unbeachtet bleiben. Wenden Sie sich in diesen Fällen bitte umgehend an Ihre behandelnde Klinik oder Ihre gynäkologische Praxis.
+
+**Nachsorge und Rückbildung:**
+
+* Organisieren Sie frühzeitig die Betreuung durch eine Hebamme. Sie unterstützt Sie bei der körperlichen Erholung, dem Stillen und der Pflege des Neugeborenen.
+* Führen Sie in angemessenem zeitlichem Abstand zur Geburt eine Rückbildungsgymnastik durch. Diese stärkt Ihre Bauch- und Beckenbodenmuskulatur und fördert die Heilung.
+* Nehmen Sie den vereinbarten Termin zur Nachuntersuchung wahr. Bei diesem Gespräch kann auch eine eventuelle weitere Familienplanung besprochen werden.

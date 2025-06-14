@@ -23,18 +23,37 @@ Antwort **ausschließlich** in sauberem Markdown:
 Liefere eine empathische, fachlich korrekte und leicht verständliche Antwort.
 """
 
-CONTEXTUALISER_PROMPT = """"
-Du bist eine Service Funktion deren Aufgabe es ist relevanten Kontext zu einem Textabschnitt hinzuzufügen.
-Gebe dafür bitte nur den Kontext wieder der zum Verständnis des Abschnitts ohne das gesamte Dokument nötig ist.
-Halte dich mit dem Kontext so kurz wie möglich. 
+CONTEXTUALISER_PROMPT = """
+Formuliere den folgenden Textabschnitt so um, dass er eigenständig verständlich ist – auch ohne den restlichen Dokumentkontext. Der Leser soll das Thema und die wesentlichen Inhalte vollständig erfassen können.
+
+Alle Informationen des Originalabschnitts müssen erhalten bleiben. Schreibe in etwa der gleichen Länge (±5%).
+
 <dokument>
 {{ context }}
 </dokument>
+
 <abschnitt>
 {{ document.content }}
 </abschnitt>
-Zusätzlicher Kontext zum Verständnis des Abschnitts:
+
+Umformulierter Abschnitt:
 """
+
+# CONTEXTUALISER_PROMPT = """"
+# Du bist eine Hilfsfunktion in einem Retrieval-System. Deine Aufgabe ist es, einem Textabschnitt zusätzlichen Kontext hinzuzufügen, der für dessen Verständnis wichtig ist – ohne das gesamte Dokument zu benötigen.
+
+# Liefere nur den wirklich notwendigen, präzisen Zusatzkontext. Halte dich so kurz wie möglich.
+
+# <dokument>
+# {{ context }}
+# </dokument>
+
+# <abschnitt>
+# {{ document.content }}
+# </abschnitt>
+
+# Zusätzlicher Kontext (maximal 2-3 Sätze):
+# """
 
 
 CONTEXT_QUERY_TEMPLATE = """

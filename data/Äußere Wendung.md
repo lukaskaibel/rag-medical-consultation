@@ -1,64 +1,64 @@
-# Äußere Wendung
+# Äußere Wendung des Kindes
 
-## Warum wird Ihnen die äußere Wendung empfohlen?
+## Weshalb wird eine äußere Wendung in Erwägung gezogen?
 
-Im Verlauf der Schwangerschaft kann ein Kind mehrmals spontan seine Position ändern. Meist nimmt es bereits einige Zeit vor der Geburt die Schädellage ein, bei der das Köpfchen nach unten zeigt (Abb. 1). Diese Lage ist für die Spontangeburt die günstigste und am wenigsten mit Problemen behaftete, weil der größte Körperteil des Kindes – das Köpfchen – die Geburtswege dehnt und für den Durchtritt des übrigen Körpers vorbereitet.
+Im Laufe der Schwangerschaft kann das ungeborene Kind seine Position im Mutterleib mehrfach verändern. In der Regel dreht es sich jedoch rechtzeitig vor der Geburt in die sogenannte Schädellage – das bedeutet, der Kopf zeigt nach unten (siehe Abbildung 1). Diese Kopflage ist für eine natürliche Entbindung besonders günstig, da der größte Körperteil – der Kopf – zuerst durch den Geburtskanal tritt und so den Weg für den restlichen Körper bereitet.
 
-Manchmal liegt das Kind jedoch gegen Ende der Schwangerschaft in einer anderen Lage (z.B. Beckenendlage, Abb. 2). Dann kann die Ärztin/der Arzt eine „äußere Wendung“ (auch „sanfte Wende“ genannt) vorschlagen. Dabei wird durch Druck an verschiedenen Stellen auf den Bauch der Mutter versucht, das Kind zu einer Drehung zu bewegen und so in die Schädellage zu bringen.
+Verbleibt das Kind hingegen am Schwangerschaftsende in einer anderen Haltung – etwa mit dem Becken nach unten (siehe Abbildung 2) – kann die behandelnde Ärztin oder der Arzt vorschlagen, eine sogenannte „äußere Wendung“ vorzunehmen. Hierbei handelt es sich um eine spezielle Technik, bei der durch gezielten Druck auf den Bauch der Mutter versucht wird, das Baby in die Schädellage zu bringen.
 
-## Gibt es Alternativmethoden?
+## Gibt es andere Möglichkeiten zur Drehung?
 
-Andere Möglichkeiten, mit denen man versuchen kann, das Kind zu drehen, kommen zum Teil aus der alternativen Medizin, z.B. Hitzestimulation von Akupunkturpunkten (Moxibustion), bestimmte Bewegungen der Mutter, Homöopathie, Akupunktur, Akupressur, Knie-Ellbogen-Lage oder „indische Brücke“. Auch wenn bei diesen Methoden die Wirksamkeit wissenschaftlich nicht bewiesen ist, können sie zum Erfolg führen. Die Behandlungen, die im Allgemeinen von Hebammen durchgeführt werden, können sich über eine gewisse Zeitspanne erstrecken und mehrmalige Sitzungen erforderlich machen. Die Kosten werden meist nicht von den Krankenkassen getragen.
+Neben der äußeren Wendung existieren alternative Ansätze aus dem Bereich der Komplementärmedizin. Dazu zählen unter anderem die Erwärmung bestimmter Akupunkturpunkte (Moxibustion), bestimmte Körperhaltungen und Bewegungen der Mutter, Akupressur, Akupunktur, homöopathische Mittel oder Übungen wie die „indische Brücke“ oder die Knie-Ellenbogen-Position. Auch wenn für viele dieser Methoden keine wissenschaftlichen Nachweise zur Wirksamkeit vorliegen, berichten einige Frauen von positiven Erfahrungen. Diese Verfahren werden zumeist von Hebammen durchgeführt und erfordern oft mehrere Sitzungen. Die Kosten müssen in der Regel privat getragen werden, da sie nicht von den gesetzlichen Krankenkassen übernommen werden.
 
-## Wie wird die Wendung durchgeführt?
+## Ablauf einer äußeren Wendung
 
-Die äußere Wendung wird normalerweise im Krankenhaus vorgenommen und erfolgt meistens ambulant. Um die Risiken möglichst gering zu halten, steht im Allgemeinen alles für einen Kaiserschnitt im Notfall bereit. Dazu gehört auch, dass eventuell von der Mutter zuerst eine Blutprobe abgenommen wird, die Blutwerte bestimmt werden und eine Infusionskanüle gelegt wird, um eventuell notwendige Medikamente zu verabreichen. Die Ärztin/Der Arzt teilt Ihnen bei der Vorbesprechung mit, ob und gegebenenfalls wie lange Sie vor der geplanten Wendung nichts essen und trinken dürfen. Er klärt Sie im Allgemeinen auch über die Wendung über einen Kaiserschnitt auf.
+Eine äußere Wendung findet in der Regel in einer Klinik statt und wird ambulant durchgeführt. Um die Sicherheit von Mutter und Kind zu gewährleisten, steht für den Notfall stets ein Kaiserschnitt-Team bereit. Häufig wird vorab eine Blutuntersuchung durchgeführt, Blutwerte bestimmt und ein venöser Zugang gelegt, um im Bedarfsfall Medikamente verabreichen zu können. Die behandelnde Ärztin oder der Arzt wird Sie vorab darüber informieren, ob Sie vor dem Eingriff nüchtern bleiben müssen, und gibt auch Hinweise zur Vorbereitung auf einen eventuellen Kaiserschnitt.
 
-Dann stellt die Ärztin/der Arzt durch eine Ultraschalluntersuchung die genaue Lage des Kindes (z.B. reine Steißlage, Steiß-Fuß-Lage, Quer- oder Schräglage) und seine Größe fest. Er ermittelt die Menge an Fruchtwasser und die Lage der Plazenta. Weiterhin wird ein CTG (Ableitung der kindlichen Herztöne mit Überprüfung der Wehentätigkeit) durchgeführt. Häufig wird auch durch eine Doppleruntersuchung abgeklärt, wie die Versorgung des Kindes ist. Um vorzeitige Wehen zu verhindern, verabreicht die Ärztin/der Arzt oft ein wehenhemmendes Mittel intravenös (Tokolyse). Zu Ihrer persönlichen Betreuung ist im Allgemeinen zusätzlich eine Hebamme an Ihrer Seite.
+Zunächst wird per Ultraschall die genaue Position des Kindes (etwa Beckenendlage, Querlage oder Fußlage), die Lage der Plazenta sowie die Fruchtwassermenge ermittelt. Zusätzlich wird ein CTG zur Überwachung der kindlichen Herztöne und der Wehentätigkeit durchgeführt. Gegebenenfalls erfolgt auch eine Doppler-Sonografie zur Beurteilung der kindlichen Versorgung. Um vorzeitige Wehen zu vermeiden, wird häufig ein Medikament zur Wehenhemmung (Tokolyse) verabreicht. Während des gesamten Vorgangs steht Ihnen in der Regel eine Hebamme zur Seite.
 
-Bevor die Ärztin/der Arzt die Wendung durchführt, bespricht er mit Ihnen, ob er aufgrund der Untersuchung und des Ultraschallbefundes eine Aussicht auf Erfolg der Wendung sieht, und rät Ihnen eventuell auch wieder von der Wendung ab (z.B. bei zu wenig Fruchtwasser, Plazenta praevia, Auffälligkeiten im CTG oder bei der Doppleruntersuchung, Fehlbildungen der Gebärmutter, mütterlichen oder kindlichen Erkrankungen).
+Die Entscheidung, ob die Wendung tatsächlich durchgeführt wird, hängt vom Ergebnis dieser Voruntersuchungen ab. Bestehen Risiken wie zu wenig Fruchtwasser, auffällige CTG-Werte, eine ungünstige Plazentalage oder gesundheitliche Probleme bei Mutter oder Kind, kann auch von der Durchführung abgeraten werden.
 
-Für die äußere Wendung ist normalerweise kein Schmerzmittel erforderlich. Eventuell wird Ihnen eine rückmarksnahe Betäubung oder die Gabe von Lachgas angeboten. Falls dies bei Ihnen der Fall ist, werden Sie hierüber gesondert aufgeklärt.
+In der Regel ist keine Schmerzmedikation notwendig. In manchen Fällen kann jedoch eine rückenmarksnahe Betäubung oder die Gabe von Lachgas in Erwägung gezogen werden. Sollte dies geplant sein, erfolgt eine gesonderte Aufklärung.
 
-Die Ärztin/der Arzt versucht nun, eventuell assistiert von einem weiteren Arzt/einer weiteren Ärztin, das Kind zu drehen, indem sie/er mit den Händen von außen auf Ihrem Bauch die genaue Lage des Kindes nochmals nachvollzieht und anschließend dosierten Druck ausübt. Sie/er ertastet den kindlichen Steiß, drückt diesen nach oben und leitet mit der anderen Hand das kindliche Köpfchen. Auf diese Weise soll eine Vorwärts- oder eine Rückwärtsrolle des Kindes ausgelöst werden. Manchmal kann durch gezieltes Streichen von außen auf den Bauch oder durch weiches schaukelndes Bewegen eine reflexartige Drehung des Kindes ausgelöst werden. Es kann auch hilfreich sein, dass Sie Ihre Position verändern und sich auf die Seite legen sollen. Während der Wendung können die Herztöne Ihres Kindes mit Ultraschall überprüft werden, um sicherzustellen, dass es Ihrem Kind gut geht. Ggf. erfolgt auch eine genaue Lagekontrolle des Kindes durch Ultraschall.
+Die eigentliche Wendung wird von einer erfahrenen Ärztin oder einem erfahrenen Arzt, manchmal auch im Team, manuell durchgeführt. Dabei ertastet sie/er die Lage des Kindes, übt kontrollierten Druck auf Steiß und Kopf aus und versucht so, das Baby durch eine Vorwärts- oder Rückwärtsrolle in die Kopflage zu bringen. In manchen Fällen kann auch ein sanftes Streichen über den Bauch oder ein verändertes Liegen der Mutter unterstützend wirken. Die Herztöne des Babys werden während der Wendung engmaschig überwacht, meist per Ultraschall.
 
-Die Wendung ist meist nicht schmerzhaft, der Druck auf die Bauchdecke wird jedoch manchmal als unangenehm erlebt.
+Die Prozedur ist in der Regel nicht schmerzhaft, allerdings kann der Druck auf den Bauch als unangenehm empfunden werden.
 
-Eine mögliche Wehentätigkeit wird nach der Wendung beendet. Die kindlichen Herztöne werden nochmals für einige Zeit überwacht (CTG). Eventuell erhalten Sie vorübergehend einen Stützgurtband, um Ihr Kind in der neuen Lage zu stabilisieren. In Absprache mit der/dem behandelnden Ärztin/Arzt können weitere CTG-Kontrollen erfolgen.
+Nach der Wendung wird überprüft, ob Wehen eingesetzt haben. Die kindlichen Herztöne werden weiter überwacht, meist mittels CTG. Falls notwendig, kann ein Bauchband angelegt werden, um die neue Lage zu stabilisieren. Eventuell sind weitere Kontrollen durch Ihre Ärztin oder Ihren Arzt sinnvoll.
 
-Normalerweise wird die äußere Wendung in der 37. oder 38. Schwangerschaftswoche durchgeführt. In diesem Zeitraum ist die Erfolgsrate am höchsten, und das Kind dreht sich nur gelegentlich wieder zurück. Falls durch die äußere Wendung Wehen ausgelöst werden, ist das Kind für die Geburt reif genug. Im Einzelfall kann aber auch ein früher oder späterer Zeitpunkt für die Wendung gewählt werden.
+Der optimale Zeitpunkt für eine äußere Wendung liegt meist in der 37. oder 38. Schwangerschaftswoche, da hier die Erfolgsquote am höchsten ist und eine Rückdrehung des Kindes nur selten vorkommt. Je nach individueller Situation kann der Eingriff aber auch früher oder später erfolgen.
 
-## Risiken und mögliche Komplikationen
+## Mögliche Risiken und Komplikationen
 
-Trotz aller Sorgfalt kann es zu – u.U. auch lebensbedrohlichen – Komplikationen kommen, die weitere Behandlungsmaßnahmen/Operationen erfordern. Die Häufigkeitsangaben sind eine allgemeine Einschätzung und sollen helfen, die Risiken untereinander zu gewichten. Sie entsprechen nicht den Definitionen für Nebenwirkungen in den Beipackzetteln von Medikamenten. Vor- und Begleiterkrankungen sowie individuelle Besonderheiten können die Häufigkeiten von Komplikationen wesentlich beeinflussen.
+Trotz größter Vorsicht kann es bei der äußeren Wendung zu Komplikationen kommen, in Einzelfällen sogar mit ernsten Folgen, die weitere medizinische Eingriffe erfordern können. Die hier genannten Wahrscheinlichkeiten sind allgemeine Schätzwerte und ersetzen keine individuelle Risikobewertung.
 
-- Selten wird ein sofortiger Not-Kaiserschnitt erforderlich aufgrund von Komplikationen wie z.B. Änderung der Herzschlagfrequenz des Kindes, Verdacht auf eine gefährliche vorzeitige Ablösung der Plazenta, Blutungen, Nabelschnurkomplikationen. Im Einzelfall kann ein Kaiserschnitt auch erst nach einem späteren Zeitpunkt notwendig werden (z.B. wenn sich die Herzschlagfrequenz des Kindes später noch ändert).
-- Gelegentlich kann es zu einem Abfall der kindlichen Herztöne kommen. Diese können sich meist mit Medikamenten bessern. Es kann auch ein Kaiserschnitt notwendig werden.
-- Gelegentlich kommt es zum Blasensprung. Je nach Position des Kindes und unter Berücksichtigung weiterer Kriterien (z.B. besprochener Geburtsmodus) kann dann eine normale Geburt oder ein Kaiserschnitt erfolgen.
-- Häufig kommt es zum Herzrasen der Mutter oder gelegentlich des Kindes als Nebenwirkung des wehenhemmenden Medikaments.
-- Die äußere Wendung kann für Sie schmerzhaft sein. Eventuell wird dann der Versuch abgebrochen.
-- Es können Blutungen aus der Scheide auftreten. Je nach Stärke der Blutungen und deren Ursache werden ggf. ein Kaiserschnitt, eine Geburtseinleitung oder eine weitere Beobachtung erforderlich. In sehr seltenen Fällen kann es zu einer Blutübertragung des Kindes auf die Mutter kommen (fetomaternale Transfusion). Hierbei gelangen kindliche Blutzellen in den mütterlichen Kreislauf. Dies kann bei Rhesus-negativen Müttern und Rhesus-positiven Kindern zu einer Immunreaktion führen und bei sehr ausgeprägter Übertragung auch zu kindlichen Beeinträchtigungen.
-- Allergie/Unverträglichkeit (z.B. auf Latex, Medikamente) kann zu einem akuten Kreislaufschock führen, der intensivmedizinische Maßnahmen erfordert. Sehr selten sind schwerwiegende, u.U. bleibende Schäden (z.B. Organschäden, Hirnschädigung, Lähmungen).
-- Haut-/Gewebe-/Nervenschäden durch die Lagerung und eingriffsbegleitende Maßnahmen (z.B. Einspritzen, Desinfektionen, Laser, elektrischer Strom) sind selten. Mögliche, u.U. dauerhafte Folgen: Schmerzen, Entzündungen, Absterben von Gewebe, Narben sowie Empfindungs-, Funktionsstörungen, Lähmungen (z.B. der Gliedmaßen).
+* In seltenen Fällen kann ein sofortiger Kaiserschnitt notwendig werden, etwa bei auffälligen kindlichen Herztönen, Verdacht auf Plazentalösung, Blutungen oder Problemen mit der Nabelschnur. Auch später kann noch ein Kaiserschnitt nötig sein.
+* Gelegentlich fällt die kindliche Herzfrequenz ab. Dies kann sich meist durch Medikamente regulieren lassen, manchmal ist aber ebenfalls ein Kaiserschnitt erforderlich.
+* Es kann zum vorzeitigen Blasensprung kommen. Je nach Situation kann dann eine vaginale Geburt oder ein Kaiserschnitt folgen.
+* Eine häufige Nebenwirkung des Wehenhemmers ist Herzrasen, entweder bei der Mutter oder gelegentlich auch beim Kind.
+* Die Wendung kann unangenehm oder sogar schmerzhaft sein. In solchen Fällen wird der Versuch möglicherweise abgebrochen.
+* Es kann zu vaginalen Blutungen kommen. Je nach Ausmaß kann dies weitere Maßnahmen wie Kaiserschnitt oder Geburtseinleitung erforderlich machen. In extrem seltenen Fällen kann Blut des Kindes in den mütterlichen Kreislauf gelangen (fetomaternale Transfusion), was bei Rhesus-negativen Müttern zu Problemen führen kann.
+* Sehr selten treten allergische Reaktionen (z.B. auf Medikamente oder Latex) auf, die in schweren Fällen zu einem Kreislaufschock führen können und intensivmedizinische Betreuung erfordern.
+* Gewebs-, Haut- oder Nervenschäden durch Lagerung oder medizinische Maßnahmen sind selten, aber möglich. Mögliche Folgen sind Schmerzen, Narben, Entzündungen oder Funktionsstörungen.
 
-## Erfolgsaussichten
+## Erfolgschancen der äußeren Wendung
 
-Eine äußere Wendung gelingt häufig. Jedoch sind auch bei großer Erfahrung der Ärztin/des Arztes Wendungsversuche nicht immer erfolgreich. Dabei spielen unter anderem die Größe und Lage des Kindes, die Lokalisation der Plazenta, die Fruchtwassermenge sowie vorausgegangene Geburten eine Rolle.
+Die Erfolgsaussichten für eine äußere Wendung sind in vielen Fällen gut, jedoch nicht garantiert. Faktoren wie die Lage des Kindes, die Fruchtwassermenge, Plazentalage und frühere Entbindungen beeinflussen die Erfolgswahrscheinlichkeit.
 
-Wenn die Wendung nicht geglückt ist, kann sie an einem anderen Tag erneut versucht werden. Darüber entscheiden Sie gemeinsam mit der Ärztin/dem Arzt.
+Wenn ein erster Versuch nicht gelingt, kann in Absprache mit der Ärztin/dem Arzt ein weiterer Anlauf an einem anderen Tag erfolgen.
 
-Nach erfolgreicher Wendung muss gelegentlich damit gerechnet werden, dass sich das Kind spontan wieder zurückdreht. Dann ist ein weiterer Wendungsversuch möglich. Bei Wendungen um den Geburtstermin kann auch die Geburt nach der erfolgreichen Wendung eingeleitet werden.
+Auch nach einer erfolgreichen Wendung besteht die Möglichkeit, dass sich das Kind erneut zurück in die Beckenendlage dreht. In diesem Fall kann ein erneuter Wendungsversuch oder eine Geburtseinleitung erwogen werden.
 
-## Wann sollte eine Wendung nicht versucht werden?
+## Wann sollte auf eine Wendung verzichtet werden?
 
-Unter bestimmten Bedingungen, z.B. bei der Lage der Plazenta über dem Muttermund (Plazenta praevia) oder beim Verlauf der kindlichen Blutgefäße vor dem Muttermund (Vasa praevia), ist die äußere Wendung nicht möglich bzw. nicht empfohlen.
+Bestimmte Bedingungen schließen eine äußere Wendung aus oder machen sie riskant – etwa, wenn die Plazenta vor dem Muttermund liegt (Plazenta praevia) oder sich Blutgefäße des Kindes in diesem Bereich befinden (Vasa praevia).
 
-Bei bestimmten Erkrankungen der Mutter (z.B. Gebärmutterfehlbildungen, chronische Entzündungen [z.B. HIV, Hepatitis] oder akute Entzündungszeichen, schwere erblich Blutgerinnungsstörung), bei bestimmten Erkrankungen des Kindes (z.B. ungewöhnliche Herzfrequenz bzw. auffällende Ergebnisse der Doppleruntersuchung, Verdacht auf offenen Rücken, vermindertes Größenwachstum, verminderte Durchblutung der Plazenta) oder einem Missverhältnis zwischen Größe des Kindes und Größe der Gebärmutter bzw. des weiblichen Beckens sowie bei Mehrlingsschwangerschaft, kurzfristig vorangegangener Blutung aus der Vagina, vermehrter Fruchtwassermenge, Nabelschnurumschlingung um den Hals, vorzeitigem Blasensprung und Wehentätigkeit wird häufig keine Wendung durchgeführt. Die Entscheidung wird jedoch vom Ausmaß der Auffälligkeit bzw. Erkrankung beeinflusst und Ihre Ärztin/Ihr Arzt bespricht mit Ihnen, ob in Ihrer konkreten Situation ein Wendungsversuch möglich ist.
+Auch gesundheitliche Einschränkungen bei Mutter oder Kind, etwa Fehlbildungen der Gebärmutter, Infektionen (z.B. HIV, Hepatitis), Blutgerinnungsstörungen, auffällige Dopplerwerte oder Nabelschnurprobleme, sprechen häufig gegen eine Wendung. In Mehrlingsschwangerschaften, bei vorzeitigem Blasensprung oder starken Fruchtwassermengen wird in der Regel von einer Wendung abgeraten. Die genaue Entscheidung hängt von der individuellen Situation ab und wird gemeinsam mit der Ärztin oder dem Arzt getroffen.
 
-Auch Schwangere mit einer Rhesus-negativen Blutgruppe können eine äußere Wendung vornehmen lassen. Durch das Manöver ist jedoch eine Übertragung kindlicher Zellen in das mütterliche Blutsystem möglich, was eine Immunreaktion der Schwangeren zur Folge haben kann. Dies könnte sich negativ auf diese und weitere Schwangerschaften auswirken. Deshalb erhalten Rhesus-negative Schwangere meist eine Impfung, welche die mögliche Sensibilisierung verhindert. Der Impfschutz wird auch unabhängig von einer äußeren Wendung zur Vorbeugung von Rhesuskomplikationen während der Schwangerschaft verabreicht. Über diese Impfung werden Sie gesondert aufgeklärt.
+Frauen mit Rhesus-negativem Blut können ebenfalls eine äußere Wendung durchführen lassen. Da dabei kindliches Blut in den mütterlichen Kreislauf gelangen kann, wird meist eine schützende Impfung gegen Rhesus-Sensibilisierung verabreicht. Diese erfolgt unabhängig von der Wendung auch routinemäßig im Verlauf der Schwangerschaft.
 
-## Verhaltenstipps
+## Praktische Hinweise
 
-Bringen Sie bitte Ihren Mutterpass zum Aufklärungsgespräch mit.
+Bitte bringen Sie zum Beratungsgespräch unbedingt Ihren Mutterpass mit.
 
-Vor dem Wendversuch sollten Sie eventuell einige Stunden nichts essen und nichts trinken, damit Sie für die Narkose bei einem möglichen Kaiserschnitt vorbereitet sind. Das ärztliche Personal wird Ihnen mitteilen, wie lange dies in Ihrem Fall sinnvoll ist.
+Vor dem Eingriff ist es in manchen Fällen erforderlich, für einige Stunden nichts zu essen oder zu trinken – dies dient der Vorbereitung auf eine mögliche Narkose. Ihre Ärztin oder Ihr Arzt wird Sie dazu individuell beraten.

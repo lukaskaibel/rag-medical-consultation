@@ -1,177 +1,199 @@
 # Narkose
 
-## Wahl des Betäubungsverfahrens  
-Damit Sie bei dem geplanten Eingriff keine Schmerzen verspüren,
-- kann eine Narkose (Allgemeinanästhesie) erfolgen, die das Bewusstsein und das Schmerzempfinden vorübergehend im ganzen Körper aufhebt,  
-- kann gezielt der Körperbereich betäubt werden, der operiert werden soll (Regionalanästhesie).
+## Auswahl des Anästhesieverfahrens
 
-Die beiden Verfahren können auch kombiniert werden. Der Arzt bespricht mit Ihnen, welches Anästhesieverfahren sich für Sie am besten eignet und, falls auch andere Verfahren in Betracht kommen, deren Vor- und Nachteile sowie die unterschiedlichen Belastungen und Risiken.  
-Vor der Anästhesie wird eine Verweilkanüle in eine Vene (z. B. Ihre Hand- oder Armvene) gelegt, über die Sie Infusionslösungen und nach Bedarf Medikamente (z. B. Narkosemittel, Schmerzmittel, Antibiotika) erhalten.
+Damit Sie den geplanten Eingriff schmerzfrei erleben, stehen zwei grundlegende Methoden zur Verfügung:
 
-## Die Narkose  
+* Eine **Allgemeinanästhesie (Narkose)**, die das Bewusstsein sowie das Schmerzempfinden im gesamten Körper vorübergehend ausschaltet.
+* Eine **Regionalanästhesie**, bei der nur der zu operierende Körperbereich gezielt betäubt wird.
 
-Zur Einleitung der Narkose spritzt der Arzt ein schnell wirkendes Narkosemittel über die Verweilkanüle.  
-Zur Fortführung der Narkose verabreicht der Arzt weitere Narkose-/Schmerzmittel (intravenöse Narkose) oder führt Narkosegase über die Atemluft zu. Oft werden beide Verfahren auch kombiniert.  
+In bestimmten Fällen ist auch eine Kombination beider Verfahren möglich. Welches Anästhesieverfahren für Sie individuell geeignet ist, wird Ihr behandelnder Arzt mit Ihnen ausführlich besprechen. Dabei erhalten Sie auch Informationen zu alternativen Verfahren, deren Vor- und Nachteilen sowie zu spezifischen Risiken und körperlichen Belastungen.
 
-Man beatmet Sie dabei, z. B. mit Sauerstoff beatmet und, falls nötig, mit Narkosegas versorgt werden können, wird  
-- ein Beatmungsschlauch (Tubus) durch den Mund (oder die Nase) in Ihre Luftröhre eingeführt (Intubationsnarkose) oder  
-- eine Kehlkopfmaske (Larynxmaske, ein Beatmungsschlauch mit einem aufblasbaren Wulst an der Spitze) durch den Mund bis vor die Kehlkopföfnung geschoben (Narkose mit einer Kehlkopfmaske).  
+Vor Beginn der Anästhesie wird über eine Verweilkanüle in einer Vene – beispielsweise an Hand oder Arm – ein Zugang gelegt. Darüber erhalten Sie Flüssigkeiten und Medikamente wie Narkose- oder Schmerzmittel sowie gegebenenfalls Antibiotika.
 
-Vor allem der Tubus verringert die Gefahr, dass Speichel oder Mageninhalt in die Lunge dringt (Aspiration). Damit er schonend eingeführt werden kann, wird ein muskelentspannendes Mittel gegeben, das außerdem die Operationsbedingungen verbessern kann.
+## Ablauf der Allgemeinanästhesie
+
+Die Einleitung der Narkose erfolgt durch die intravenöse Gabe eines schnell wirksamen Narkosemittels über die zuvor gelegte Kanüle.
+
+Zur Aufrechterhaltung der Narkose während des Eingriffs kommen entweder kontinuierlich verabreichte Medikamente (intravenöse Anästhesie) oder Narkosegase über die Atemluft zum Einsatz – häufig auch in Kombination.
+
+Für die kontrollierte Beatmung wird:
+
+* ein Beatmungsschlauch (Tubus) über Mund oder Nase in die Luftröhre eingeführt (Intubationsnarkose),
+* oder eine Kehlkopfmaske (Larynxmaske) vor den Kehlkopfeingang gelegt.
+
+Die Verwendung eines Tubus bietet den zusätzlichen Schutz, das Risiko des Eindringens von Speichel oder Mageninhalt in die Lunge (Aspiration) deutlich zu senken. Um eine schonende Einführung zu gewährleisten und optimale Operationsbedingungen zu schaffen, wird in der Regel ein muskelentspannendes Mittel verabreicht.
 
 ## Die Regionalanästhesie
 
-Bei einer Regionalanästhesie spritzt der Arzt ein örtliches Betäubungsmittel in die Nähe schmerleitender Nerven. Dieses „blockiert“ die Weiterleitung von Schmerzreizen aus dem Operationsgebiet zum Gehirn. Das Schmerzempfinden ist in der Regel für mehrere Stunden ausgeschaltet.  
-Die Betäubung macht sich zuerst durch ein Kribbeln und Wärmegefühl bemerkbar. Dann werden die betäubten Körperbereiche (z. B. Schulter, Arm, Unterkörper oder Beine) schwer und gefühllos. Solange die Wirkung anhält, können die betäubten Körperbereiche nur wenig oder gar nicht bewegt werden.  
-Bei einer Regionalanästhesie sind Sie wach, können aber bei Bedarf ein Beruhigungsmittel erhalten („Dämmerschlaf“/Sedierung). Falls dies geplant ist, werden Sie gesondert darüber aufgeklärt. Nach einer Sedierung werden Sie sich nur noch eingeschränkt oder gar nicht an die Operation erinnern.  
-In manchen Fällen empfiehlt es sich, die Regionalanästhesie zusätzlich zur Narkose einzusetzen. Dann benötigen Sie weniger Narkosemittel, erholen sich schneller nach dem Eingriff und haben direkt nach der Operation kaum Schmerzen. Allerdings birgt die zusätzliche Regionalanästhesie auch eigene Risiken.
+Bei der Regionalanästhesie wird ein örtlich wirkendes Betäubungsmittel in die Nähe von Nerven gespritzt, die für die Schmerzleitung im betroffenen Operationsbereich zuständig sind. Diese Schmerzsignale werden dadurch blockiert, sodass die Empfindung in diesem Bereich vorübergehend ausgeschaltet ist – meist über mehrere Stunden.
 
-Spinalanästhesie und Periduralanästhesie  
-Sie eignen sich für Operationen im Bereich der unteren Körperhälfte (z. B. an Beinen, Hüfte, Leiste). Die thorakale Periduralanästhesie (PDA) bietet sich zudem für Eingriffe im Brustkorb und Oberbauch an. Beide Verfahren betäuben die schmerzleitenden Nervenfasern des Rückenmarks. Der Arzt spritzt das Betäubungsmittel
-- bei der Spinalanästhesie in Höhe der Lendenwirbelsäule durch die harte Rückenmarkshaut in den mit Gehirn-Rückenmark-Flüssigkeit gefüllten Spinalraum (Abb. 1, c)
-- bei der Periduralanästhesie in den Periduralraum vor die harte Rückenmarkshaut, entweder in Höhe der Lendenwirbelsäule (lumbale PDA, Abb. 1, b) oder in Höhe der Brustwirbelsäule.
-Beide Verfahren können auch miteinander kombiniert werden.
+Typischerweise äußert sich die Wirkung zunächst durch ein Kribbeln oder Wärmegefühl. Im Anschluss fühlen sich die betroffenen Körperregionen – etwa Schulter, Arm, Unterkörper oder Beine – schwer und taub an. Während der Wirkdauer ist die Bewegungsfähigkeit dieser Körperteile eingeschränkt oder ganz aufgehoben.
+
+Während einer Regionalanästhesie bleiben Sie wach. Auf Wunsch oder bei medizinischer Indikation kann ein Beruhigungsmittel (sog. „Dämmerschlaf“ bzw. Sedierung) verabreicht werden. Wenn dies vorgesehen ist, werden Sie hierzu separat aufgeklärt. Nach einer solchen Sedierung kann es sein, dass Sie sich nur teilweise oder gar nicht mehr an den Eingriff erinnern.
+
+Mitunter ist es sinnvoll, die Regionalanästhesie ergänzend zur Narkose anzuwenden. Diese Kombination kann dazu beitragen, den Bedarf an Narkosemitteln zu verringern, die Erholungsphase zu verkürzen und postoperative Schmerzen zu lindern. Dabei ist zu beachten, dass jede zusätzliche Maßnahme auch eigene Risiken mit sich bringt.
+
+### Spinal- und Periduralanästhesie
+
+Diese Methoden eignen sich besonders für operative Eingriffe an der unteren Körperhälfte – etwa an Beinen, Hüfte oder im Leistenbereich. Die thorakale Periduralanästhesie (PDA) kann auch bei Eingriffen im Bereich des Brustkorbs und Oberbauchs sinnvoll sein.
+
+Beide Verfahren wirken auf die Nervenfasern, die im Rückenmark verlaufen:
+
+* Bei der **Spinalanästhesie** wird das Betäubungsmittel in Höhe der Lendenwirbelsäule direkt in den sogenannten Spinalraum – den mit Nervenflüssigkeit gefüllten Raum unter der Rückenmarkshaut – injiziert.
+* Bei der **Periduralanästhesie (PDA)** erfolgt die Injektion vor die harte Rückenmarkshaut in den sogenannten Periduralraum, entweder im Lendenwirbelbereich (lumbale PDA) oder im Brustwirbelbereich (thorakale PDA).
+
+Eine Kombination beider Verfahren ist ebenfalls möglich.
 
 ### Armplexusanästhesie
-Bei Schulter-, Arm- und Handoperationen wird der Armplexus betäubt – ein Geflecht aus Nerven, die von der Halswirbelsäule aus durch die Schulter und Achselhöhle den Arm hinab bis in die Finger verlaufen. Das Betäubungsmittel wird an einer der folgenden Stellen eingespritzt:
-- in der Achselhöhle (axillär, Abb. 2, a)  
-- unterhalb des Schlüsselbeins (infraklavikulär, Abb. 2, b)  
-- oberhalb des Schlüsselbeins (supraklavikulär, Abb. 2, c)  
-- seitlich am Hals zwischen zwei Muskeln (interskalenär, Abb. 2, d)
 
-Davor bestimmt der Arzt mit Ultraschall und/oder einem Nervenstimulator die richtige Lage der Injektionsnadel dicht am Nerv. Die Nervenstimulation kann kurzfristig Muskelzuckungen und ein „Elektrisieren“ auslösen.
+Bei Operationen an Schulter, Arm oder Hand kann eine Betäubung des sogenannten Armplexus erfolgen – ein Nervengeflecht, das von der Halswirbelsäule aus durch die Schulterregion bis in die Finger verläuft. Das Betäubungsmittel wird je nach Lage des Eingriffs an einer der folgenden Stellen injiziert:
 
-### Wechsel von einer Regionalanästhesie zur Narkose
-Gelingt es mit der Regionalanästhesie in Einzelfällen nicht, die Schmerzen komplett auszuschalten, breitet sich die Regionalanästhesie zu weit aus oder kommt es zu Komplikationen, kann eine Narkose nötig sein.
+* in der Achselhöhle (axillär)
+* unterhalb des Schlüsselbeins (infraklavikulär)
+* oberhalb des Schlüsselbeins (supraklavikulär)
+* seitlich am Hals zwischen bestimmten Muskeln (interskalenär)
+
+Um die genaue Position der Nadel sicherzustellen, nutzt der Arzt meist Ultraschall und/oder einen Nervenstimulator. Die Stimulation kann kurzfristige Muskelzuckungen oder ein elektrisierendes Gefühl auslösen.
+
+### Wechsel zur Narkose bei unzureichender Wirkung
+
+In Einzelfällen kann es vorkommen, dass eine Regionalanästhesie nicht ausreicht, um die Schmerzleitung vollständig zu unterbinden, sich die Wirkung zu weit ausbreitet oder unerwünschte Nebenwirkungen auftreten. In solchen Situationen wird die Anästhesie unter Umständen in eine Vollnarkose umgewandelt.
 
 ### Regionale Schmerzbehandlung nach dem Eingriff
-Schmerzen im operierten Körperbereich können sehr wirksam durch die Gabe von Medikamenten über einen dünnen Kunststoffschlauch (regionalen Katheter) behandelt werden. Dieser wird vor, während oder nach der Operation in die Nähe schmerzleitender Nerven gelegt. Wird er vor dem Eingriff gelegt, kann er zur Regionalanästhesie verwendet und danach zur Schmerzbehandlung belassen werden.  
-Empfiehlt sich die Schmerztherapie mit einem regionalen Katheter, wird der Arzt Sie gesondert darüber aufklären.
 
-## Neben- und Folgemaßnahmen
-Über vorhersehbare Neben- und Folgeeingriffe (z. B. Legen eines zentralen Venenkatheters) wird der Arzt Sie gesondert aufklären.  
-Auch wenn eine Fremdbluttransfusion ernsthaft in Betracht kommt, werden Sie über die Durchführung und Risiken (z. B. Unverträglichkeitsreaktionen, Infektionen, z. B. extrem selten Hepatitis oder HIV-Infektion [AIDS], u. U. auch Infektionen mit unbekannten Krankheitserregern) sowie über fremdblutsparende Maßnahmen gesondert aufgeklärt.
+Für eine effektive Schmerztherapie nach der Operation kann ein dünner Kunststoffschlauch (regionaler Katheter) verwendet werden, über den gezielt schmerzstillende Medikamente verabreicht werden. Dieser Katheter wird in die Nähe der schmerzleitenden Nerven eingeführt – vor, während oder nach der Operation. Wenn der Katheter bereits zur Regionalanästhesie genutzt wurde, kann er im Anschluss weiter zur Schmerzbehandlung dienen.
 
-### Risiken und mögliche Komplikationen
-Der Arzt sorgt für Ihre Sicherheit, indem er während des gesamten Eingriffs Ihre wichtigsten Körperfunktionen überwacht (v. a. Herzaktivität, Atmung und Kreislauf) und bei Bedarf unterstützt (z. B. durch die Gabe von Kreislaufmitteln).  
-Trotz aller Sorgfalt kann es jedoch zu – u. U. auch lebensbedrohlichen – Komplikationen kommen, die weitere Behandlungsmaßnahmen/Operationen erfordern. Die Häufigkeitsangaben sind eine allgemeine Einschätzung und sollen helfen, die Risiken untereinander zu gewichten. Sie entsprechen nicht den Definitionen bezüglich Nebenwirkungen in den Beipackzetteln von Medikamenten. Vor- und Begleiterkrankungen sowie individuelle Besonderheiten können die Häufigkeiten von Komplikationen wesentlich beeinflussen.
+Sollte der Einsatz eines solchen Katheters für die postoperative Schmerztherapie empfohlen werden, klärt der behandelnde Arzt Sie darüber gesondert auf.
 
-Beabsichtigt der Arzt, bei Ihnen Medikamente einzusetzen, die sich in der Anästhesie bewährt haben, dafür aber nicht formell zugelassen sind (Off-Label-Use), wird er seine Gründe mit Ihnen besprechen und Sie über die üblichen Risiken aufklären. Unbekannte Risiken lassen sich dabei nicht ausschließen, und es besteht u. U. keine Haftung des Herstellers.
+## Weitere Maßnahmen und mögliche Begleiteingriffe
 
-### Allgemeine Risiken von Einspritzungen/Kanülen/Kathetern
+Falls absehbare Zusatzmaßnahmen oder Folgeeingriffe notwendig werden, wie z. B. das Einführen eines zentralen Venenkatheters, wird Ihr Arzt Sie dazu gesondert informieren.
 
-- Verletzungen von Blutgefäßen durch Injektionsnadeln, Kanülen oder Katheter können zu Blutungen und Blutergüssen führen. Nur selten ist eine Behandlung, insbesondere eine Operation, nötig.  
+Sollte eine Bluttransfusion mit Spenderblut in Frage kommen, erhalten Sie ebenfalls eine separate Aufklärung über deren Ablauf und mögliche Risiken. Dazu zählen unter anderem Unverträglichkeitsreaktionen oder Infektionen – wobei ernsthafte Komplikationen wie eine Übertragung von Hepatitis oder HIV äußerst selten sind. Auch die Möglichkeit von Infektionen durch bislang unbekannte Erreger kann nicht vollständig ausgeschlossen werden. Zusätzlich werden Ihnen Maßnahmen erläutert, mit denen sich der Bedarf an Fremdblut möglicherweise verringern lässt.
 
-- Katheter können nach der Einführungsstelle im weiteren Verlauf feiner Venenwände (insbesondere bei längerer Verweildauer von Venenverweilkanülen) zu Reizungen, Abszesse, Absterben von Gewebe und Narbenbildung, in seltenen Fällen auch zu schwerwiegenden Infektionen führen, insbesondere bei einer geschwächten Abwehrlage mit erhöhter Infektionsanfälligkeit. In sehr seltenen Fällen kann eine lebensbedrohliche Blutvergiftung (Sepsis) auftreten.
+## Mögliche Risiken und Komplikationen
 
-- Nervenverletzungen/-schädigungen durch Nadeln, Kanülen oder Katheter können vorübergehende, in ungünstigen Fällen auch dauerhafte Beschwerden verursachen, z. B. Schmerzen, Missempfindungen, Taubheitsgefühl und Bewegungseinschränkungen.  
+Während des Eingriffs werden Ihre wichtigsten Vitalfunktionen wie Herzschlag, Atmung und Kreislauf kontinuierlich überwacht und bei Bedarf unterstützt, etwa durch kreislaufstabilisierende Medikamente. Trotz dieser umfassenden Maßnahmen lassen sich – wenn auch selten – schwerwiegende Komplikationen nicht vollständig ausschließen. Diese können in Einzelfällen lebensbedrohlich sein und erfordern eventuell weitere medizinische Maßnahmen oder operative Eingriffe.
 
-- Chronische Schmerzen und bleibende Lähmungen nach schwerwiegenden Nervenverletzungen, Blutergüssen oder Entzündungen sind sehr selten.  
+Die im Folgenden genannten Häufigkeiten von Komplikationen dienen der groben Einordnung und basieren auf allgemeinen Erfahrungswerten. Sie sind nicht mit den offiziellen Definitionen von Nebenwirkungen in Arzneimittelbeipackzetteln identisch. Persönliche Vorerkrankungen, körperliche Besonderheiten oder bestehende Risikofaktoren können das Komplikationsrisiko beeinflussen.
 
-- Thrombose/Embolie: Bilden sich Blutgerinnsel oder werden sie verschleppt und verschließen ein Blutgefäß, kann dies lebensgefährliche Folgen haben (z. B. Lungenembolie, Schlaganfall, Herzinfarkt).
+Falls vorgesehen ist, bei Ihnen Medikamente anzuwenden, die sich in der Anästhesie bewährt haben, jedoch nicht offiziell für diesen Zweck zugelassen sind (sogenannter Off-Label-Use), wird Ihr Arzt Sie darüber aufklären. Dabei geht er auf die bekannten Risiken ein. Unbekannte Nebenwirkungen lassen sich in diesen Fällen nicht ausschließen, und der Hersteller übernimmt unter Umständen keine Haftung.
 
-### Allgemeine Risiken der Betäubungsverfahren und Nebenwirkungen von Medikamenten
+### Allgemeine Risiken bei Injektionen, Kanülen und Kathetern
 
-- Haut-, Gewebe- und Nervenschäden, im äußersten Fall Lähmungen an Armen/Beinen, durch Druck, Zug oder Überstreckung während der Anästhesie („Lagerungsschäden“) lassen sich nicht sicher ausschließen. Meist bilden sie sich innerhalb weniger Monate zurück, können selten aber auch von Dauer sein. Hornhautschäden am Auge sind aufgrund von Schutzmaßnahmen extrem selten und heilen in aller Regel folgenlos ab.  
+* Wird eine Nadel, Kanüle oder ein Katheter gesetzt, kann es zu einer Verletzung von Blutgefäßen kommen. Das führt gelegentlich zu Blutergüssen oder Blutungen. Nur in seltenen Fällen ist eine weitergehende Behandlung oder sogar ein operativer Eingriff notwendig.
 
-- Benötigte Medikamente und Materialien (z. B. Betäubungsmittel, muskelentspannende Mittel, Desinfektionsmittel, Latexhandschuhe) können unerwünschte Reaktionen wie z. B. Übelkeit, Erbrechen, Muskelzittern, Juckreiz, Hautausschlag oder Atem- und Kreislaufbeschwerden hervorrufen. Solche eher leichten, oft allergisch bedingten Reaktionen lassen sich i. d. R. rasch und gut behandeln.  
+* Katheter, insbesondere bei längerer Liegedauer in Venen, können Reizungen, Abszesse, Gewebeuntergang oder Narben verursachen. Infektionen können auftreten, vor allem bei geschwächtem Immunsystem. In sehr seltenen Fällen besteht die Gefahr einer lebensbedrohlichen Blutvergiftung (Sepsis).
 
-- Schwere Nebenwirkungen und schwere allergische Reaktionen bis hin zum akuten Kreislaufschock oder unerwartet auftretende Komplikationen wie Krampfanfälle oder ein Herz-, Kreislauf-, Atem- und Organversagen sind selten. Sie können aber u. U. schwerwiegende Dauerschäden verursachen (z. B. Hirnschädigung, andauernde Organschäden, Lähmungen).  
+* Durch die Platzierung oder das Einführen solcher Hilfsmittel können Nerven verletzt werden. In der Folge kann es zu Schmerzen, Taubheitsgefühlen, Missempfindungen oder Bewegungsstörungen kommen. Manchmal verschwinden diese Symptome von selbst, in seltenen Fällen bleiben sie dauerhaft bestehen.
 
-- Jedes Medikament hat zudem eigene Risiken. Beispielsweise kann Metamizol, ein Schmerzmittel, das oft während und/oder nach dem Eingriff gegeben wird, sehr selten zu Veränderungen des Blutbilds (z. B. zu einer lebensbedrohlichen Verminderung weißer Blutkörperchen [Agranulozytose]) führen, v. a. bei einer Schmerzbehandlung über mehrere Tage. Der Arzt wird Sie deshalb gesondert über mögliche schwere Nebenwirkungen einzelner, für Sie vorgesehener Medikamente, ihr Nutzen-Risiko-Verhältnis und mögliche Alternativen aufklären.  
+* Sehr selten kann es durch schwerwiegende Nervenverletzungen, größere Blutergüsse oder entzündliche Reaktionen zu chronischen Schmerzen oder dauerhaften Lähmungen kommen.
 
-- Eine lebensbedrohliche Stoffwechselentgleisung mit drastischem Anstieg der Körpertemperatur (maligne Hyperthermie) kommt äußerst selten bei Patienten mit einer speziellen genetischen Veranlagung nach Gabe von Narkosegas oder bestimmten muskelentspannenden Mitteln vor. Sie muss intensivmedizinisch behandelt werden.  
+* Thrombosen oder Embolien: Gerinnt Blut und verstopft Gefäße, kann dies – je nach Lage – zu ernsten, potenziell lebensbedrohlichen Folgen führen, z. B. Lungenembolie, Herzinfarkt oder Schlaganfall.
 
-- Verwirrtheit und Einschränkungen der geistigen Fähigkeiten können u. a. durch die ungewohnte Umgebung, die Operation und die verwendeten Medikamente hervorgerufen werden, v. a. bei älteren Menschen. Solche Beeinträchtigungen halten i. d. R. nur einige Stunden oder Tage, evtl. auch einige Monate an und sind nur sehr selten dauerhaft.
+### Allgemeine Risiken von Anästhesieverfahren und Medikamentennebenwirkungen
 
-### Spezielle Risiken der Narkose
+* **Lagerungsbedingte Schäden:** Während der Anästhesie kann es durch unbeabsichtigten Druck, Zug oder Überstreckung zu Schäden an Haut, Gewebe oder Nerven kommen. In den meisten Fällen bilden sich diese Beschwerden innerhalb weniger Monate zurück. Selten können bleibende Bewegungseinschränkungen oder Empfindungsstörungen zurückbleiben. Schäden an der Hornhaut des Auges treten dank Vorsichtsmaßnahmen nur sehr selten auf und heilen meist folgenlos ab.
 
-- Gelangt Mageninhalt in die Lunge (Aspiration), kann dies lebensgefährliche Folgen haben. Möglich sind z. B. eine Lungenentzündung, ein Lungenversagen und dauerhafte Lungenschäden. Bei nüchternen Patienten ist eine Aspiration selten.  
+* **Medikamentenreaktionen:** Die eingesetzten Mittel (z. B. Betäubungs- oder Muskelrelaxantien, Desinfektionsmittel, Latexprodukte) können Nebenwirkungen verursachen, darunter Übelkeit, Erbrechen, Juckreiz, Zittern, Hautausschläge oder Kreislauf- und Atemprobleme. Diese Beschwerden lassen sich in der Regel schnell und effektiv behandeln.
 
-- Ein krampfartiger Verschluss der Luftwege (Laryngo-/Bronchospasmus) bei der Einführung oder dem Zug des Tubus, seltener der Kehlkopfmaske, lässt sich in der Regel rasch mit Medikamenten beheben. In Ausnahmefällen ist eine intensivmedizinische Behandlung nötig.  
+* **Schwere Komplikationen:** In seltenen Fällen können starke allergische Reaktionen oder unvorhergesehene Zwischenfälle auftreten – etwa Krampfanfälle, Schockzustände oder Versagen von Organfunktionen (z. B. Herz, Lunge, Nieren). Solche Ereignisse können bleibende Schäden verursachen, z. B. Lähmungen oder Hirnschädigungen, und erfordern in der Regel intensivmedizinische Versorgung.
 
-- Schluckbeschwerden und Heiserkeit können vor allem durch den Tubus, aber auch durch die Kehlkopfmaske verursacht werden und sind meist nur vorübergehend.  
+* **Medikamentenspezifische Risiken:** Jedes Präparat birgt individuelle Gefahren. Beispielsweise kann das häufig verwendete Schmerzmittel Metamizol in seltenen Fällen eine gefährliche Abnahme weißer Blutkörperchen (Agranulozytose) verursachen, insbesondere bei längerer Einnahme. Der Arzt informiert Sie über relevante Nebenwirkungen und prüft individuell Nutzen und Alternativen.
 
-- Dauerhafte Stimmbandschäden (z. B. Stimmbandlähmung) mit bleibenden Stimmstörungen (Heiserkeit), Atemnot, Verletzungen von Rachen, Kiefer, Kehlkopf und Luftröhre sind selten. Bleibende Missempfindungen an der Zunge ebenfalls.  
+* **Maligne Hyperthermie:** Diese seltene, genetisch bedingte Stoffwechselstörung kann nach Gabe bestimmter Narkosegase oder Muskelrelaxantien auftreten. Sie zeigt sich durch einen gefährlich schnellen Temperaturanstieg und muss sofort intensivmedizinisch behandelt werden.
 
-- An Zähnen, Implantaten und nicht herausnehmbarem Zahnersatz (z. B. Kronen, Brücken, Prothesen) sind Schäden bis hin zum Zahnverlust möglich, v. a. bei Karies, lockeren Zähnen oder gelockertem Zahnersatz.  
+* **Verwirrtheit nach Narkose:** Besonders bei älteren Personen können nach der Anästhesie geistige Einschränkungen, Orientierungslosigkeit oder Gedächtnisstörungen auftreten. Diese verschwinden meist nach wenigen Stunden oder Tagen, gelegentlich halten sie Wochen oder länger an. Dauerhafte Beeinträchtigungen sind jedoch sehr selten.
 
-- Wachheit während der Narkose kann trotz sorgfältiger Narkoseführung in seltenen Fällen auftreten; Schmerzempfindungen sind sehr selten. Vereinzelt können belastende Erinnerungen auftreten und eine Behandlung erfordern.
+### Besondere Risiken bei Vollnarkose
+
+* **Einatmen von Mageninhalt (Aspiration):** Falls während der Narkose Mageninhalt in die Lunge gelangt, kann das schwerwiegende Folgen haben – etwa eine Lungenentzündung, akutes Atemversagen oder bleibende Lungenschäden. Bei nüchternen Patientinnen und Patienten ist dieses Risiko sehr gering.
+
+* **Luftwegskomplikationen:** Beim Einführen oder Entfernen von Beatmungshilfen (v. a. Tubus, seltener Kehlkopfmaske) kann es zu einem krampfartigen Verschluss der Atemwege (Laryngo- oder Bronchospasmus) kommen. Diese Reaktion lässt sich meist gut mit Medikamenten behandeln, erfordert in Ausnahmefällen jedoch eine Intensivüberwachung.
+
+* **Heiserkeit und Schluckbeschwerden:** Diese Beschwerden treten häufiger nach der Verwendung eines Tubus auf, gelegentlich auch nach Einsatz einer Kehlkopfmaske. Sie sind in der Regel vorübergehend.
+
+* **Verletzungen im Rachenraum:** Schäden an Stimmbändern (z. B. Stimmbandlähmung), dem Kehlkopf oder der Luftröhre sowie Empfindungsstörungen an der Zunge sind selten, können aber zu dauerhaften Beeinträchtigungen führen.
+
+* **Zahnschäden:** Besonders bei bereits geschädigten oder gelockerten Zähnen kann es zu Schäden an Zähnen, Zahnersatz oder Implantaten bis hin zum Zahnverlust kommen. Dies gilt insbesondere bei der Verwendung eines Beatmungstubus.
+
+* **Bewusstsein unter Narkose (Awareness):** In sehr seltenen Fällen wachen Patientinnen oder Patienten während der Narkose teilweise auf. Das Schmerzempfinden bleibt dabei fast immer ausgeschaltet. Mögliche belastende Erinnerungen können eine therapeutische Nachbetreuung erfordern.
 
 ### Allgemeine Risiken der Regionalanästhesie
 
-- Krampfanfälle, Bewusstlosigkeit und schwerwiegende, in sehr seltenen Fällen auch lebensgefährliche Herz-Kreislauf- und Atemstörungen können auftreten, wenn das Betäubungsmittel bei der Einspritzung direkt in den Blutkreislauf gelangt oder sehr schnell vom Gewebe in das Blut übertritt. Diese Komplikationen sowie vorübergehende Lähmungen sind auch möglich, wenn sich das Betäubungsmittel bei der Spinalanästhesie zu weit ausbreitet, bei der PDA unbeabsichtigt in den Spinalraum gelangt oder bei der interskalenären Armplexusanästhesie auf das Halsrückmark einwirkt. Eine kurze intensivmedizinische Behandlung ist dann nötig.  
+* **Reaktionen auf das Betäubungsmittel:** Falls das Mittel versehentlich direkt in ein Blutgefäß gespritzt wird oder sehr schnell ins Blut übertritt, können Krampfanfälle, Bewusstlosigkeit sowie schwere, teils lebensbedrohliche Störungen von Herz-Kreislauf oder Atmung auftreten. Solche Komplikationen sind auch möglich, wenn sich das Betäubungsmittel im Körper zu weit ausbreitet, z. B. bei Spinalanästhesie, bei einer unbeabsichtigten Injektion in den Spinalraum bei einer PDA oder bei einer Armplexusanästhesie mit Auswirkung auf das Halsrückenmark. In diesen Fällen ist ggf. eine intensivmedizinische Behandlung notwendig.
 
-- Durch eine Verletzung des Rippenfells kann bei der thorakalen PDA und bei den Armplexusanästhesien – mit Ausnahme der axillären – Luft in die Brusthöhle eindringen (Pneumothorax), die Atmung erschweren und Schmerzen in der Brust verursachen. Die eingedrungene Luft muss eventuell abgesaugt werden.  
+* **Pneumothorax (Luft in der Brusthöhle):** Bei thorakaler PDA oder Armplexusanästhesien – außer der axillären Form – kann es durch Verletzung des Rippenfells zu Luftansammlungen in der Brust kommen. Diese können die Atmung beeinträchtigen und Schmerzen verursachen. Manchmal muss die Luft gezielt abgesaugt werden.
 
-- Wird ein regionaler Katheter zur Schmerzbehandlung gelegt, kann es in sehr seltenen Fällen zu Schlingenbildung oder einem Abriss von Katheterteilen und dadurch zu Gefäß- und Nervenverletzungen kommen. Eine operative Behandlung und/oder die operative Entfernung des Katheters/der abgerissenen Katheterteile kann nötig sein.
+* **Komplikationen bei Schmerzkathetern:** Wenn ein regionaler Katheter zur Schmerzbehandlung eingesetzt wird, besteht ein sehr geringes Risiko, dass sich der Katheter verknäuelt, Teile abbrechen oder Gefäße und Nerven geschädigt werden. In solchen Fällen kann ein chirurgischer Eingriff notwendig sein.
 
 ### Spezielle Risiken der Spinal- und Periduralanästhesie
 
-- Direkte Verletzungen des Rückenmarks sind bei der Spinalanästhesie und lumbalen Periduralanästhesie (PDA) nahezu ausgeschlossen, weil das Betäubungsmittel in der Regel unterhalb des Rückenmarks eingespritzt wird. Bei der thorakalen PDA sind sie sehr selten.  
+* **Verletzungen des Rückenmarks:** Bei der Spinal- und lumbalen Periduralanästhesie ist eine direkte Schädigung des Rückenmarks nahezu ausgeschlossen, da die Injektion in einem Bereich unterhalb des Rückenmarks erfolgt. Bei thorakaler PDA ist dieses Risiko äußerst gering, aber nicht gänzlich auszuschließen.
 
-- Bleibende Lähmungen (z. B. Störungen der Blasen-/Darmentleerung), im Extremfall bis zu einer Querschnittslähmung, sind selten. Sie können durch Blutergüsse oder Infektionen (Abszess) im Spinal-/Periduralraum oder durch Schädigungen von Rückenmarksnerven oder dem Rückenmark verursacht werden.  
+* **Lähmungen und Funktionsstörungen:** In seltenen Fällen kann es durch Blutansammlungen (Hämatome), Infektionen (Abszesse) oder Verletzungen von Rückenmarksnerven zu bleibenden Lähmungen, etwa der Blasen- oder Darmentleerung, kommen – im Extremfall bis hin zur Querschnittslähmung.
 
-- Selten kann eine aufsteigende Infektion auch zu einer Hirnhautentzündung führen.
+* **Hirnhautentzündungen:** Eine aufsteigende Infektion kann in seltenen Fällen zu einer Meningitis führen.
 
-- Bei einer Spinalanästhesie oder wenn bei einer PDA die harte Rückenmarkshaut unbeabsichtigt durchstochen wird, sind folgende Komplikationen möglich:
+* **Komplikationen durch unbeabsichtigten Durchstich der harten Rückenmarkshaut:** Wird diese bei der PDA versehentlich durchstochen oder tritt dies im Rahmen einer Spinalanästhesie auf, kann es zu folgenden Beschwerden kommen:
 
-- eine Reizung von Hirnnerven, die vorübergehende, selten auch dauerhafte Seh- und Hörstörungen sowie starke Kopfschmerzen zur Folge haben kann. Klingen die Kopfschmerzen trotz Medikamentengabe nicht ab, kann Eigenblut eingespritzt werden, um die Stelle abzudichten, an der die Nadel die harte Rückenmarkshaut durchstoßen hat. Dadurch lassen sich die Kopfschmerzen fast immer beseitigen. Nur sehr selten können sie noch längere Zeit anhalten (im Ausnahmefall über einige Monate).
+  * Reizung von Hirnnerven mit vorübergehenden oder selten bleibenden Sehstörungen, Hörproblemen oder sehr starken Kopfschmerzen.
+  * Bei anhaltenden Kopfschmerzen kann eine Eigenblutpflasterung (Blutpatch) durchgeführt werden, die in der Regel zur Beschwerdebesserung führt. Nur in Ausnahmefällen dauern die Beschwerden länger an.
+  * Sehr selten kann es zu einer Hirnblutung, einem Blut- oder Flüssigkeitsstau unter der harten Hirnhaut (subdurales Hämatom/Hygrom) oder einer Hirnvenenthrombose mit möglichen bleibenden Schäden kommen.
 
-- selten eine lebensbedrohende Hirnblutung, eine Ansammlung von Blut bzw. Flüssigkeit unter der das Gehirn umgebenden harten Rückenmarkshaut (subdurales Hämatom/Hygrom) oder eine Hirnvenenthrombose mit möglichen Dauerschäden des Gehirns.
+* **Rückenschmerzen und Harnverhalt:** Kurzfristige Rückenschmerzen und Probleme beim Wasserlassen treten vergleichsweise häufig auf. Letzteres kann die vorübergehende Einlage eines Blasenkatheters erforderlich machen, was gelegentlich zu Blutungen oder Harnwegsinfektionen führen kann.
 
-- Vorübergehende Rückenschmerzen sind häufig, chronische Rückenschmerzen sehr selten.
-
-- Vorübergehende Probleme beim Wasserlassen (Harnverhalt) sind ebenfalls häufig. Eventuell muss dann für kurze Zeit ein Blasenkatheter gelegt werden. Dadurch kann es u. a. zu Blutungen und Harnwegsinfekten/-verletzungen kommen. Die Betäubung kann auch vorübergehend zu Potenzstörungen führen.
+* **Sexuelle Funktionsstörungen:** Vorübergehende Störungen der Potenz sind ebenfalls möglich.
 
 ### Spezielle Risiken der Armplexusanästhesie
 
-- Empfindungsstörungen (z. B. Kribbeln, Taubheitsgefühl im Arm oder Nacken) und Bewegungsstörungen bis hin zu Lähmungen klingen meist innerhalb einiger Wochen oder Monate wieder ab. Bleibende Empfindungsstörungen, chronische Schmerzen und dauerhafte Lähmungen (z. B. Armlähmungen) nach Infektion, Verletzung oder Schädigung von Armplexusnerven sind selten.
+* **Empfindungs- und Bewegungsstörungen:** Infolge der Betäubung können Missempfindungen wie Kribbeln, Taubheitsgefühle oder Bewegungsstörungen im Arm oder Nacken auftreten. In der Regel verschwinden diese innerhalb von Wochen oder Monaten. In seltenen Fällen können dauerhafte Nervenschädigungen zu anhaltenden Schmerzen oder Lähmungen führen (z. B. Armlähmung).
 
-- Eine vorübergehende Lähmung des Zwerchfellnervs kommt häufig bei einer interskalenären und supraklavikulären Armplexusanästhesie vor, im Einzelfall auch bei einer infraklavikulären, nicht jedoch bei einer axillären Armplexusanästhesie. Die Lähmung bleibt i. d. R. unbemerkt. Gelegentlich kommt es zu Atembeschwerden, die meist von selbst wieder abklingen und nur sehr selten eine künstliche Beatmung erforderlich machen. Speziell nach einer interskalenären Armplexusanästhesie ist gelegentlich eine dauerhafte Lähmung des Zwerchfells mit Beeinträchtigung der Atmung möglich.
+* **Zwerchfellnervenlähmung:** Eine vorübergehende Lähmung des Nervs, der das Zwerchfell versorgt, ist besonders bei der interskalenären und supraklavikulären Technik häufig, gelegentlich auch bei der infraklavikulären Technik. Sie verläuft meist symptomlos. In Einzelfällen kann es zu Atembeschwerden kommen, die in der Regel spontan abklingen. Sehr selten wird eine künstliche Beatmung erforderlich. Nach interskalenärer Blockade ist im Ausnahmefall eine dauerhafte Lähmung mit bleibender Atemeinschränkung möglich.
 
-- Eine vorübergehende Lähmung des Stimmbandnervs kann vorübergehende Heiserkeit verursachen.
+* **Stimmbandlähmung:** Gelegentlich kann es zu einer kurzzeitigen Lähmung des Stimmbandnervs kommen, die sich durch vorübergehende Heiserkeit bemerkbar macht.
 
-- Ein hängendes Auge (Horner-Syndrom), ein Wärmegefühl im Gesicht und Heiserkeit sind typische vorübergehende Folgen der Armplexusanästhesie, mit Ausnahme der axillären Plexusanästhesie.
+* **Horner-Syndrom:** Ein einseitiges herabhängendes Augenlid, ein Wärmegefühl im Gesicht oder Heiserkeit sind typische, meist harmlose Begleiterscheinungen der Armplexusanästhesie – mit Ausnahme der axillären Technik.
 
-## Verhaltenhinweise  
+## Verhaltensempfehlungen
 
-### Vor der Anästhesie
+### Vor der Betäubung
 
-Beachten Sie unbedingt folgende Anweisungen zur NÜCHTERNHEIT, sofern der Arzt NICHTS ANDERES angeordnet hat:
+Bitte beachten Sie unbedingt die nachfolgenden Hinweise zur NÜCHTERNHEIT, sofern der Arzt keine abweichenden Anordnungen gegeben hat:
 
-- Erwachsene dürfen  
-  bis zu 6 Stunden vor der Narkose noch eine leicht verdauliche kleine Mahlzeit (z. B. 1 Scheibe Weißbrot mit Marmelade, 1 Glas Milch) zu sich nehmen.  
+* **Erwachsene:**
+  Bis zu sechs Stunden vor dem Eingriff ist eine leichte, gut verdauliche Mahlzeit erlaubt (z. B. eine Scheibe Weißbrot mit Marmelade, dazu ein Glas Milch).
 
-- 6–2 Stunden vor der Narkose nur noch 1–2 Gläser/Tassen klare Flüssigkeit (z. B. Wasser, Tee ohne Milch) trinken. Diese dürfen aber kein Fett, keine festen Bestandteile und keinen Alkohol enthalten!  
+* Zwischen sechs und zwei Stunden vor der Anästhesie dürfen Sie lediglich noch 1–2 Gläser klare Flüssigkeiten (z. B. Wasser oder Tee ohne Milch) zu sich nehmen. Diese Getränke dürfen keinerlei feste Bestandteile, Fette oder Alkohol enthalten.
 
-- Jugendliche bis 18 Jahre dürfen  
-  bis zu 6 Stunden vor der Narkose nicht essen.  
+* **Jugendliche unter 18 Jahren:**
+  Müssen spätestens sechs Stunden vor der Narkose das Essen einstellen.
 
-- 6 Stunden bis 1 Stunde vor der Narkose noch klare Flüssigkeit ohne Fett, ohne feste Bestandteile und ohne Alkohol (z. B. Wasser, Tee ohne Milch) trinken.  
+* Zwischen sechs und einer Stunde vor der Anästhesie dürfen auch sie nur klare, fettfreie und alkoholfreie Flüssigkeiten (z. B. Tee ohne Milch, Wasser) trinken.
 
-Ab den für Sie geltenden Zeiten ist essen bzw. trinken nicht mehr erlaubt! Informieren Sie unbedingt den Arzt oder die Mitarbeitenden, falls Sie sich nicht genau an die Nüchternheitspflichten gehalten haben!
+Ab dem jeweils für Sie geltenden Zeitpunkt ist jegliche Nahrungs- und Flüssigkeitsaufnahme verboten! Sollten Sie sich nicht vollständig an die Nüchternheitsvorgaben gehalten haben, informieren Sie bitte umgehend das medizinische Personal!
 
-RAUCHEN erhöht grundsätzlich die Risiken der Anästhesie und Operation (z. B. erhöhte Gefahr von Lungenentzündungen, Durchblutungsstörungen, Herz-Kreislauf-Problemen).
+**Rauchen** erhöht grundsätzlich das Risiko während Narkose und Operation, zum Beispiel für Infektionen der Lunge, Durchblutungsprobleme oder Kreislaufstörungen.
 
-Der Arzt bespricht mit Ihnen, welche Medikamente Sie eventuell noch bzw. absetzen oder ersetzen müssen.
+Der Arzt wird mit Ihnen besprechen, welche Medikamente weiterhin eingenommen, abgesetzt oder gegebenenfalls ersetzt werden müssen.
 
-Bitte legen Sie vorhandene Patientenunterlagen (z. B. Narkose-, Allergie-, Impfpass, Marcumar-, Diabetikerausweis, Schrittmacherausweis) vor. Falls eine Patientenverfügung, Vorsorgevollmacht oder Betreuungsvollmacht besteht, bringen Sie bitte eine Kopie mit.
+Bitte bringen Sie sämtliche vorhandenen medizinischen Unterlagen mit (z. B. Narkosepass, Allergiepass, Impfausweis, Marcumar- oder Diabetikerausweis, Herzschrittmacher-Ausweis). Falls eine Patientenverfügung, Vorsorgevollmacht oder Betreuungsvollmacht existiert, bringen Sie bitte eine Kopie mit.
 
-Kontaktlinsen, herausnehmbare Zahnersatz, Ringe, Schmuck (auch Piercings!) und künstliche Haarteile müssen vor der Anästhesie entfernt werden. Bitte klären Sie, wo Sie diese aufbewahren können und ob Sie ggf. Brille und Hörgerät noch bis in den Vorraum des Operationssaals mitnehmen dürfen. Verwenden Sie bitte kein Gesichtsschminke und Kosmetika (Make-up, Nagellack etc.)!
+Kontaktlinsen, herausnehmbare Prothesen, Schmuck wie Ringe oder Piercings sowie künstliche Haarteile müssen vor Beginn der Narkose entfernt werden. Klären Sie gegebenenfalls, ob Sie Ihre Brille oder Hörhilfe mit in den Vorbereitungsraum nehmen dürfen. Verzichten Sie bitte vollständig auf Kosmetika und Schminke (z. B. Make-up oder Nagellack).
 
-## Nach der Anästhesie
+## Nach der Betäubung
 
-Bis Ihre wichtigen Körperfunktionen wieder stabil sind, werden Sie noch eine Zeit lang überwacht, eventuell auf einer Wach- oder Intensivstation. Um Sie vor Verletzungen zu schützen, kann es nötig sein, Ihre Bewegungsfreiheit vorübergehend einzuschränken (z. B. durch Bettgitter).
+Solange Ihre lebenswichtigen Körperfunktionen sich noch stabilisieren, bleiben Sie zur Kontrolle unter Beobachtung – eventuell auf einer Aufwach- oder Intensivstation. Um das Risiko von Verletzungen zu minimieren, kann es notwendig sein, Ihre Bewegungsmöglichkeiten vorübergehend einzuschränken, beispielsweise durch seitlich hochgestellte Bettgitter.
 
-Wegen der Sturzgefahr dürfen Sie zunächst nicht allein aufstehen! Bitte schützen Sie eventuell noch betäubte Körperbereiche vor Druckschäden und Verletzungen. Medikamente dürfen Sie nur nach ärztlicher Anweisung einnehmen.
+Da direkt nach der Narkose erhöhte Sturzgefahr besteht, dürfen Sie keinesfalls ohne Hilfe aufstehen! Achten Sie bitte darauf, betäubte Körperteile besonders zu schonen, da diese in dieser Phase kein Schmerzempfinden haben – Druckstellen und Verletzungen könnten unbemerkt entstehen. Nehmen Sie Medikamente ausschließlich nach ärztlicher Anordnung ein.
 
-Bei Frauen, die hormonelle Verhütungsmittel (z. B. „Pille“, Spirale) anwenden, kann die empfängnisverhütende Wirkung nach der Anästhesie noch mind. 7 Tage beeinträchtigt sein.
+Falls Sie hormonelle Verhütungsmittel verwenden (z. B. Antibabypille oder Hormonspirale), beachten Sie bitte: Die Wirksamkeit kann nach einer Narkose noch mindestens sieben Tage lang eingeschränkt sein.
 
-Bitte verständigen Sie sofort einen Arzt, wenn Beschwerden auftreten wie Atem- oder Kreislaufstörungen, Störungen des Bewusstseins, Schmerzen, Fieber (über 38 °C), Schüttelfrost, Übelkeit, Erbrechen, Halsschmerzen, Heiserkeit, Sprechstörungen, Schluckbeschwerden sowie Entzündungen, z. B. im Mund, Probleme beim Wasserlassen oder Stuhlgang, Missempfindungen (z. B. an einer Einstichstelle oder an Gliedmaßen), Bewegungsstörungen, Anzeichen von Lähmungen!
+Bitte informieren Sie sofort medizinisches Personal, wenn nach dem Eingriff Beschwerden auftreten wie: Atemnot, Kreislaufprobleme, Bewusstseinsveränderungen, anhaltende Schmerzen, Fieber über 38 °C, Schüttelfrost, Übelkeit, Erbrechen, Halsschmerzen, Heiserkeit, Schluckbeschwerden, Sprechstörungen oder entzündliche Veränderungen (z. B. im Mund). Ebenso sollten Probleme beim Wasserlassen oder Stuhlgang, Missempfindungen an Einstichstellen oder Gliedmaßen, Bewegungsstörungen oder Lähmungsanzeichen umgehend gemeldet werden.
 
-### Hinweise für ambulante Eingriffe
+### Hinweise für ambulante Operationen
 
-Nach einem ambulanten Eingriff ist Ihr Reaktionsvermögen durch Betäubungsmittel, Schmerzmittel und andere Medikamente vorübergehend beeinträchtigt. Deshalb müssen Sie sich von einer erwachsenen Person abholen und in den ersten 24 Stunden bzw. für die vom Arzt angegebene Zeit zu Hause betreuen lassen.
+Nach einem ambulanten Eingriff ist Ihre Reaktionsfähigkeit durch die verabreichten Betäubungs-, Schmerz- und sonstigen Medikamente für eine gewisse Zeit eingeschränkt. Aus diesem Grund ist es zwingend erforderlich, dass Sie sich von einer volljährigen Begleitperson nach Hause bringen lassen und dort während der ersten 24 Stunden – oder für den vom Arzt angegebenen Zeitraum – unter Aufsicht bleiben.
 
-Wegen der Medikamentennachwirkungen dürfen Sie für 24 Stunden bzw. so lange, wie vom Arzt angegeben, auch nicht aktiv am Straßenverkehr teilnehmen, keine gefährlichen Tätigkeiten ausüben, keinen Alkohol trinken und nicht rauchen. Sie sollten in dieser Zeit auch keine wichtigen Entscheidungen treffen.
+In dieser Phase dürfen Sie keinesfalls selbst ein Fahrzeug führen oder am Straßenverkehr teilnehmen. Auch Arbeiten mit Verletzungsgefahr, der Konsum von Alkohol oder das Rauchen sind in dieser Zeit zu unterlassen. Zudem sollten Sie während dieser Erholungsphase keine wichtigen Entscheidungen treffen, da Ihr Urteilsvermögen beeinträchtigt sein kann.
