@@ -5,7 +5,7 @@ from haystack.document_stores.in_memory import InMemoryDocumentStore
 from haystack.components.writers import DocumentWriter
 from haystack.utils import ComponentDevice, Device
 from pipelines.components.contextualiser import Contextualiser
-from prompt import CONTEXTUALISER_PROMPT
+from config.prompt import CONTEXTUALISER_PROMPT
 
 def get_context_indexing_pipeline(document_store: InMemoryDocumentStore):
     pipeline = Pipeline()
