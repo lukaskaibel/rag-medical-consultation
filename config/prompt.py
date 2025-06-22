@@ -23,26 +23,10 @@ Antwort **ausschließlich** in sauberem Markdown:
 Liefere eine empathische, fachlich korrekte und leicht verständliche Antwort.
 """
 
-CONTEXTUALISER_PROMPT = """
-Formuliere den folgenden Textabschnitt so um, dass er eigenständig verständlich ist – auch ohne den restlichen Dokumentkontext. Der Leser soll das Thema und die wesentlichen Inhalte vollständig erfassen können.
+# CONTEXTUALISER_PROMPT = """
+# Formuliere den folgenden Textabschnitt so um, dass er eigenständig verständlich ist – auch ohne den restlichen Dokumentkontext. Der Leser soll das Thema und die wesentlichen Inhalte vollständig erfassen können.
 
-Alle Informationen des Originalabschnitts müssen erhalten bleiben. Schreibe in etwa der gleichen Länge (±5%).
-
-<dokument>
-{{ context }}
-</dokument>
-
-<abschnitt>
-{{ document.content }}
-</abschnitt>
-
-Umformulierter Abschnitt:
-"""
-
-# CONTEXTUALISER_PROMPT = """"
-# Du bist eine Hilfsfunktion in einem Retrieval-System. Deine Aufgabe ist es, einem Textabschnitt zusätzlichen Kontext hinzuzufügen, der für dessen Verständnis wichtig ist – ohne das gesamte Dokument zu benötigen.
-
-# Liefere nur den wirklich notwendigen, präzisen Zusatzkontext. Halte dich so kurz wie möglich.
+# Alle Informationen des Originalabschnitts müssen erhalten bleiben. Schreibe in etwa der gleichen Länge (±5%).
 
 # <dokument>
 # {{ context }}
@@ -52,8 +36,24 @@ Umformulierter Abschnitt:
 # {{ document.content }}
 # </abschnitt>
 
-# Zusätzlicher Kontext (maximal 2-3 Sätze):
+# Umformulierter Abschnitt:
 # """
+
+CONTEXTUALISER_PROMPT = """"
+Du bist eine Hilfsfunktion in einem Retrieval-System. Deine Aufgabe ist es, einem Textabschnitt zusätzlichen Kontext hinzuzufügen, der für dessen Verständnis wichtig ist – ohne das gesamte Dokument zu benötigen.
+
+Liefere nur den wirklich notwendigen, präzisen Zusatzkontext. Halte dich so kurz wie möglich.
+
+<dokument>
+{{ context }}
+</dokument>
+
+<abschnitt>
+{{ document.content }}
+</abschnitt>
+
+Zusätzlicher Kontext (maximal 2-3 Sätze):
+"""
 
 
 CONTEXT_QUERY_TEMPLATE = """

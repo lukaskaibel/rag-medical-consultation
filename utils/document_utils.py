@@ -8,8 +8,12 @@ def find_matching_docs(references, documents, threshold=80):
     for doc in documents:
         normalized_doc_text = normalize(doc.content)
         for ref in normalized_refs:
-            similarity = fuzz.partial_ratio(ref, normalized_doc_text)
+            sim1 = fuzz.partial_ratio(ref, normalized_doc_text)
+            sim2 = fuzz.partial_ratio(normalized_doc_text, ref)
+
+            similarity = max(sim1, sim2)
+
             if similarity >= threshold:
                 matched_docs.append(doc)
-                break  # Stop after first match per doc
+                break # break after first match per doc
     return matched_docs

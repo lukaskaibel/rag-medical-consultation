@@ -53,6 +53,6 @@ class Contextualiser():
         for document in documents:
             context_prompt = context_prompt_builder.run(template_variables={"context": context, "document": document})["prompt"]
             result = generator.run(context_prompt)
-            document.content = result["replies"][0] # + "\n\n" + document.content
+            document.content = result["replies"][0] + "\n\n" + document.content
 
         return { "documents": documents }
