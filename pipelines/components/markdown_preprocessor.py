@@ -27,7 +27,7 @@ class MarkdownPreprocessor():
             filtered = [
                 line
                 for line in lines
-                if not (line.startswith("#") and len(line) < 50)
+                if not line.startswith("#")
             ]
             # 3) Re-assemble and re-encode
             cleaned_text = "\n".join(filtered)
