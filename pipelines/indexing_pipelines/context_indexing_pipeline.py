@@ -20,7 +20,7 @@ def get_context_indexing_pipeline(document_store: InMemoryDocumentStore):
     document_embedder = SentenceTransformersDocumentEmbedder(
         model=os.environ["EMBEDDING_MODEL_NAME"],
         prefix="",
-        device=ComponentDevice.from_single(Device.gpu(id=0)),
+        device=ComponentDevice.from_single(Device.gpu(id=1)),
         model_kwargs={"torch_dtype": "float16"}
     )
     document_embedder.warm_up()

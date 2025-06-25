@@ -40,7 +40,7 @@ Liefere eine empathische, fachlich korrekte und leicht verständliche Antwort.
 # """
 
 CONTEXTUALISER_PROMPT = """"
-Du bist eine Hilfsfunktion in einem Retrieval-System. Deine Aufgabe ist es, einem Textabschnitt zusätzlichen Kontext hinzuzufügen, der für dessen Verständnis wichtig ist – ohne das gesamte Dokument zu benötigen.
+Du bist eine Hilfsfunktion in einem Retrieval-System. Deine Aufgabe ist es, einem Textabschnitt zusätzlichen Kontext hinzuzufügen, der für dessen Verständnis wichtig ist - ohne das gesamte Dokument zu benötigen.
 
 Liefere nur den wirklich notwendigen, präzisen Zusatzkontext. Halte dich so kurz wie möglich.
 
