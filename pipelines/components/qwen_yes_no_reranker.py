@@ -40,6 +40,9 @@ class QwenYesNoReranker:
         self.prefix_tokens = None
         self.suffix_tokens = None
         self.max_length = None
+        # prompt strings for batch tokenization
+        self.prefix_str: Optional[str] = None
+        self.suffix_str: Optional[str] = None
 
     def warm_up(self):
         """Load tokenizer and model."""
@@ -71,6 +74,9 @@ class QwenYesNoReranker:
             "<|im_start|>assistant\n"
             "<think>\n\n</think>\n\n"
         )
+        # store full prompt strings for batching
+        self.prefix_str = prefix
+        self.suffix_str = suffix
         # tokenize prompt tokens
         self.prefix_tokens = self.tokenizer.encode(prefix, add_special_tokens=False)
         self.suffix_tokens = self.tokenizer.encode(suffix, add_special_tokens=False)
@@ -106,31 +112,22 @@ class QwenYesNoReranker:
         all_scores = []
         for i in range(0, len(pairs), self.batch_size):
             batch = pairs[i : i + self.batch_size]
-            # tokenize without padding
+            # build full prompt strings
+            texts = [self.prefix_str + prompt + self.suffix_str for prompt in batch]
+            # tokenize + pad in one fast call
             inputs = self.tokenizer(
-                batch,
-                padding=False,
+                texts,
+                padding=True,
                 truncation=True,
                 return_tensors="pt",
-                add_special_tokens=False,
-                max_length=self.max_length - len(self.prefix_tokens) - len(self.suffix_tokens),
-            )
-            # add prefix and suffix
-            input_ids = []
-            for seq in inputs["input_ids"]:
-                seq = self.prefix_tokens + seq.tolist() + self.suffix_tokens
-                input_ids.append(seq)
-            # pad to batch
-            padded = self.tokenizer.pad(
-                {"input_ids": input_ids},
-                padding=True,
-                return_tensors="pt",
                 max_length=self.max_length,
+                add_special_tokens=False,
             )
-            padded = {k: v.to(self.device.to_torch_str()) for k, v in padded.items()}
+            # move to device
+            inputs = {k: v.to(self.device.to_torch_str()) for k, v in inputs.items()}
             # forward
             with torch.no_grad():
-                logits = self.model(**padded).logits[:, -1, :]
+                logits = self.model(**inputs).logits[:, -1, :]
             # extract yes/no logits
             yes_logits = logits[:, self.token_yes_id]
             no_logits = logits[:, self.token_no_id]
