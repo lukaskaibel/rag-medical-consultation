@@ -13,22 +13,22 @@ def get_hybrid_retrieval_pipeline(document_store: InMemoryDocumentStore):
 
     query_embedder = SentenceTransformersTextEmbedder(
         model=os.environ["EMBEDDING_MODEL_NAME"],
-        prefix="",
+        prefix="Instruct: Given a question, retrieve relevant passages that answer the question\nQuestion:",
         device=ComponentDevice.from_single(Device.gpu(id=2)),
         model_kwargs={"torch_dtype": "float16"}
     )
     query_embedder.warm_up()
 
-    retriever = InMemoryEmbeddingRetriever(document_store=document_store, top_k=int(os.environ["EMBEDDING_MODEL_TOP_K"]))
-    bm25_retriever = InMemoryBM25Retriever(document_store=document_store, top_k=int(os.environ["EMBEDDING_MODEL_TOP_K"]))
+    retriever = InMemoryEmbeddingRetriever(document_store=document_store)
+    bm25_retriever = InMemoryBM25Retriever(document_store=document_store)
 
     document_joiner = DocumentJoiner()
 
     reranker = QwenYesNoReranker(
-        model="Qwen/Qwen3-Reranker-0.6B", 
-        top_k=int(os.environ["EMBEDDING_MODEL_TOP_K"]),
+        model=os.environ["RERANKING_MODEL_NAME"],
         device=ComponentDevice.from_single(Device.gpu(id=3)),
         batch_size=1,
+        instruction="Given a question, retrieve all the relevant passages that answer that query",
     )
     reranker.warm_up()
 

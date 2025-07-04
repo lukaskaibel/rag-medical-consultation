@@ -56,7 +56,7 @@ class QwenYesNoReranker:
             self.tokenizer.padding_side = self.padding_side
         # model
         self.model = AutoModelForCausalLM.from_pretrained(
-            self.model_name, torch_dtype=torch.float16 if self.device.to_torch_str().startswith("cuda") else None
+            self.model_name, torch_dtype=torch.float16
         ).to(self.device.to_torch_str())
         self.model.eval()
         # yes/no token ids
