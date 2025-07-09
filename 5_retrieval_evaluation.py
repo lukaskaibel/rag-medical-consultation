@@ -41,7 +41,7 @@ os.environ["SENTENCE_TRANSFORMERS_HOME"] = "./model-assets/sentence-transformers
 os.environ["HF_HUB_CACHE"] = "./model-assets/hugging-face"
 
 
-# In[12]:
+# In[ ]:
 
 
 # from config.secret import OPENAI_API_KEY
@@ -56,7 +56,7 @@ embedder = "Qwen/Qwen3-Embedding-4B"
 reranker = "Qwen/Qwen3-Reranker-0.6B"
 
 TOP_K_VALUES = [5, 10, 20, 40, 80]
-NUMBER_OF_QUESTIONS_IN_EVAL = 1
+NUMBER_OF_QUESTIONS_IN_EVAL = 600
 
 
 # In[15]:
