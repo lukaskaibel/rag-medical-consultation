@@ -3,13 +3,16 @@ from haystack.components.embedders import SentenceTransformersTextEmbedder
 from haystack.document_stores.in_memory import InMemoryDocumentStore
 from haystack.components.retrievers import InMemoryEmbeddingRetriever
 from haystack.utils import ComponentDevice, Device
+from haystack.components.joiners import BranchJoiner
+from haystack.dataclasses import Document
 from models import EmbeddingModelConfig, RerankingModelConfig, EmbeddingModelProvider, RerankingModelProvider
 from pipelines.components.qwen_yes_no_reranker import QwenYesNoReranker
+from typing import Optional, List
 
 def get_base_retrieval_pipeline(
     document_store: InMemoryDocumentStore, 
     embedding_model_config: EmbeddingModelConfig,
-    reranking_model_config: RerankingModelConfig,
+    reranking_model_config: Optional[RerankingModelConfig] = None,
 ) -> Pipeline:
     pipeline = Pipeline()
 
@@ -25,23 +28,29 @@ def get_base_retrieval_pipeline(
         return ValueError("Embedding provider not implemented")
 
     retriever = InMemoryEmbeddingRetriever(document_store=document_store)
-
-    if reranking_model_config.provider == RerankingModelProvider.HUGGING_FACE:
-        reranker = QwenYesNoReranker(
-            model=reranking_model_config.name,
-            device=ComponentDevice.from_single(Device.gpu(id=3)),
-            batch_size=1,
-            instruction="Given a question, retrieve all the relevant passages that answer that query",
-        )
-        reranker.warm_up()
-    else:
-        return ValueError("Reranking provider not implemented")
-
+    
     pipeline.add_component(instance=query_embedder, name="query_embedder")
     pipeline.add_component(instance=retriever, name="retriever")
-    pipeline.add_component(instance=reranker, name="reranker")
+    pipeline.add_component(instance=BranchJoiner(List[Document]), name="joiner")
 
     pipeline.connect("query_embedder.embedding", "retriever.query_embedding")
-    pipeline.connect("retriever", "reranker")
+
+    if reranking_model_config != None:
+        if reranking_model_config.provider == RerankingModelProvider.HUGGING_FACE:
+            reranker = QwenYesNoReranker(
+                model=reranking_model_config.name,
+                device=ComponentDevice.from_single(Device.gpu(id=3)),
+                batch_size=1,
+                instruction="Given a question, retrieve all the relevant passages that answer that query",
+            )
+            reranker.warm_up()
+            pipeline.add_component(instance=reranker, name="reranker")
+            pipeline.connect("retriever", "reranker")
+            pipeline.connect("reranker", "joiner")
+        else:
+            return ValueError("Reranking provider not implemented")
+    else:
+        pipeline.connect("retriever", "joiner")
+
 
     return pipeline

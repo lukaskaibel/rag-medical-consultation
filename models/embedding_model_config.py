@@ -1,7 +1,7 @@
 from enum import Enum
 
 class EmbeddingModelProvider(Enum):
-    OLLAMA = 0
+    OPENAI = 0
     SENTENCE_TRANSFORMER = 1
 
 class EmbeddingModelConfig:
