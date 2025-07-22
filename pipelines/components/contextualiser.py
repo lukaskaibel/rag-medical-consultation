@@ -5,13 +5,14 @@ from haystack_integrations.components.generators.ollama import OllamaGenerator
 from haystack.dataclasses import Document
 from haystack.components.builders import PromptBuilder
 import os
+from models import LLMConfig, LLMProvider
 
 @component
 class Contextualiser():
     def __init__(
         self,
         prompt: str,
-        model: str = "orca-mini",
+        llm_model_config: LLMConfig,
         url: str = "http://localhost:11434",
         generation_kwargs: Optional[Dict[str, Any]] = None,
         keep_alive: Optional[Union[float, str]] = None,
@@ -19,7 +20,7 @@ class Contextualiser():
         self.prompt = prompt
         self.generation_kwargs = generation_kwargs or {}
         self.url = url
-        self.model = model
+        self.llm_model_config = llm_model_config
         self.keep_alive = keep_alive
     
     @component.output_types(documents=List[Document])
@@ -34,16 +35,16 @@ class Contextualiser():
             variables=["context", "document"]
         )
 
-        if os.environ["LLM_PROVIDER"] == "ollama":
+        if self.llm_model_config.provider == LLMProvider.OLLAMA:
             generator = OllamaGenerator(
-                model=self.model,
+                model=self.llm_model_config.name,
                 url=self.url,
                 generation_kwargs=self.generation_kwargs,
                 keep_alive=self.keep_alive,
             )
-        elif os.environ["LLM_PROVIDER"] == "openai":
+        elif self.llm_model_config.provider == LLMProvider.OPEN_AI:
             generator = OpenAIGenerator(
-                model=self.model,
+                model=self.llm_model_config.name,
                 generation_kwargs={
                     "temperature": self.generation_kwargs["temperature"],
                     "max_tokens": self.generation_kwargs["num_ctx"]

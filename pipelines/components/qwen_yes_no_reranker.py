@@ -15,7 +15,7 @@ class QwenYesNoReranker:
     """
     def __init__(
         self,
-        model: str = "Qwen/Qwen3-Reranker-4B",
+        model: str = "Qwen/Qwen3-Reranker-0.6B",
         device: Optional[ComponentDevice] = None,
         top_k: int = 10,
         instruction: Optional[str] = None,
