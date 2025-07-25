@@ -2,7 +2,7 @@ from typing import Optional
 from haystack import Pipeline
 from haystack.document_stores.in_memory import InMemoryDocumentStore
 from haystack.components.generators.chat import OpenAIChatGenerator
-from haystack.components.builders import ChatPromptBuilder
+from haystack.components.builders import ChatPromptBuilder, AnswerBuilder
 from haystack_integrations.components.generators.ollama import OllamaChatGenerator
 from models import EmbeddingModelConfig, RerankingModelConfig, RewriterModelConfig, LLMConfig, LLMProvider
 from pipelines.retrieval_pipelines.base_retrieval_pipeline import get_base_retrieval_pipeline
@@ -50,10 +50,16 @@ def get_rag_pipeline(
     pipeline.add_component("generator", generator)
     pipeline.add_component("prompt_builder", prompt_builder)
 
+    answer_builder = AnswerBuilder()
+    pipeline.add_component("answer_builder", answer_builder)
+    pipeline.connect("generator.replies", "answer_builder.replies")
+
     if reranking_model_config == None and embedding_model_config != None:
         pipeline.connect("retriever.documents", "prompt_builder.documents")
+        pipeline.connect("retriever.documents", "answer_builder.documents")
     elif reranking_model_config != None:
         pipeline.connect("reranker.documents", "prompt_builder.documents")
+        pipeline.connect("reranker.documents", "answer_builder.documents")
     pipeline.connect("prompt_builder.prompt", "generator.messages")
 
     return pipeline

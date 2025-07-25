@@ -10,8 +10,9 @@ def get_base_retrieval_eval_pipeline(
     embedding_model_config: EmbeddingModelConfig,
     reranking_model_config: RerankingModelConfig,
     rewriting_model_config: RewriterModelConfig,
+    is_hyde: bool,
 ) -> Pipeline:
-    base_retrieval_pipeline = pipelines.retrieval_pipelines.base_retrieval_pipeline.get_base_retrieval_pipeline(base_indexing_store, embedding_model_config, reranking_model_config, rewriting_model_config)
+    base_retrieval_pipeline = pipelines.retrieval_pipelines.base_retrieval_pipeline.get_base_retrieval_pipeline(base_indexing_store, embedding_model_config, reranking_model_config, rewriting_model_config, is_hyde)
 
     map_evaluator = DocumentMAPEvaluator()
     mrr_evaluator = DocumentMRREvaluator()

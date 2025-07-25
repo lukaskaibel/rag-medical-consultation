@@ -1,7 +1,7 @@
 from haystack.document_stores.in_memory import InMemoryDocumentStore
 from haystack import Pipeline
 from haystack_integrations.components.evaluators.ragas import RagasEvaluator
-from ragas.metrics import ContextPrecision, AnswerCorrectness, Faithfulness
+from ragas.metrics import AnswerCorrectness, Faithfulness, ResponseRelevancy, ResponseGroundedness, AspectCritic
 from models import EmbeddingModelConfig, RerankingModelConfig, RewriterModelConfig, LLMConfig
 from pipelines.rag_pipelines.rag_pipeline import get_rag_pipeline
 
@@ -14,9 +14,16 @@ def get_rag_evaluation_pipeline(
 ) -> Pipeline:
     pipeline = get_rag_pipeline(llm_config, base_indexing_store, embedding_model_config, reranking_model_config, rewriting_model_config)
 
-    ragas_evaluator = RagasEvaluator(
-        ragas_metrics=[AnswerCorrectness(), Faithfulness(), ContextPrecision()]
-    )
+    metrics = [
+        AnswerCorrectness(),
+        ResponseRelevancy(),
+        AspectCritic(name="language_quality", definition="Is the answer written in a clear, coherent, and grammatically correct way, without awkward phrasing or language issues?"),
+    ]
+
+    if embedding_model_config != None:
+        metrics += [Faithfulness(), ResponseGroundedness()]
+
+    ragas_evaluator = RagasEvaluator(ragas_metrics=metrics)
 
     pipeline.add_component("evaluator", ragas_evaluator)
     if reranking_model_config != None:
