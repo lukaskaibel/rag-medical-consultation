@@ -16,14 +16,13 @@ def get_base_retrieval_pipeline(
     embedding_model_config: EmbeddingModelConfig,
     reranking_model_config: Optional[RerankingModelConfig] = None,
     rewriter_model_config: Optional[RewriterModelConfig] = None,
-    is_hyde: bool = False, # Set to true when using Hypothetical Document Embedding from Rewriter
 ) -> Pipeline:
     pipeline = Pipeline()
 
     if embedding_model_config.provider == EmbeddingModelProvider.SENTENCE_TRANSFORMER:
         query_embedder = SentenceTransformersTextEmbedder(
             model=embedding_model_config.name,
-            prefix="Instruct: Given a question, retrieve relevant passages that answer the question\nQuestion:" if not is_hyde else "Instruct: Given a passage, retrieve all similar passages\nPassage:",
+            prefix="Instruct: Given a question, retrieve relevant passages that answer the question\nQuestion:",
             device=ComponentDevice.from_single(Device.gpu(id=2)),
             model_kwargs={"torch_dtype": "float16"}
         )
@@ -51,7 +50,6 @@ def get_base_retrieval_pipeline(
                 batch_size=1,
                 instruction="Given a question, retrieve all the relevant passages that answer that query",
             )
-            reranker.warm_up()
             pipeline.add_component(instance=reranker, name="reranker")
             pipeline.connect("retriever", "reranker")
             pipeline.connect("reranker", "joiner")

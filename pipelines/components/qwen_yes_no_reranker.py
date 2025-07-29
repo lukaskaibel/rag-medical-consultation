@@ -44,44 +44,54 @@ class QwenYesNoReranker:
         self.prefix_str: Optional[str] = None
         self.suffix_str: Optional[str] = None
 
+    _model_instance = None
+
+    @staticmethod
+    def get_model(model: str):
+        if QwenYesNoReranker._model_instance == None:
+            QwenYesNoReranker._model_instance = AutoModelForCausalLM.from_pretrained(
+                model, torch_dtype=torch.float16, device_map="sequential"
+            )
+        return QwenYesNoReranker._model_instance
+
     def warm_up(self):
         """Load tokenizer and model."""
-        # tokenizer
-        self.tokenizer = AutoTokenizer.from_pretrained(
-            self.model_name, padding_side=self.padding_side
-        )
-        # ensure pad_token is defined
-        if self.tokenizer.pad_token is None:
-            self.tokenizer.pad_token = self.tokenizer.eos_token
-            self.tokenizer.padding_side = self.padding_side
-        # model
-        self.model = AutoModelForCausalLM.from_pretrained(
-            self.model_name, torch_dtype=torch.float16
-        ).to(self.device.to_torch_str())
-        self.model.eval()
-        # yes/no token ids
-        self.token_yes_id = self.tokenizer.convert_tokens_to_ids("yes")
-        self.token_no_id = self.tokenizer.convert_tokens_to_ids("no")
-        # build prompt prefix and suffix
-        prefix = (
-            "<|im_start|>system\n"
-            "Judge whether the Document meets the requirements based on the Query and the Instruct provided. "
-            "Note that the answer can only be \"yes\" or \"no\".<|im_end|>\n"
-            "<|im_start|>user\n"
-        )
-        suffix = (
-            "<|im_end|>\n"
-            "<|im_start|>assistant\n"
-            "<think>\n\n</think>\n\n"
-        )
-        # store full prompt strings for batching
-        self.prefix_str = prefix
-        self.suffix_str = suffix
-        # tokenize prompt tokens
-        self.prefix_tokens = self.tokenizer.encode(prefix, add_special_tokens=False)
-        self.suffix_tokens = self.tokenizer.encode(suffix, add_special_tokens=False)
-        # compute max length
-        self.max_length = self.model.config.max_position_embeddings
+        if self.tokenizer == None:
+            self.tokenizer = AutoTokenizer.from_pretrained(
+                self.model_name, padding_side=self.padding_side
+            )
+            # ensure pad_token is defined
+            if self.tokenizer.pad_token is None:
+                self.tokenizer.pad_token = self.tokenizer.eos_token
+                self.tokenizer.padding_side = self.padding_side
+            # model
+            self.model = QwenYesNoReranker.get_model(self.model_name)
+            # disable past_key_values caching to free memory across iterations
+            self.model.config.use_cache = False
+            self.model.eval()
+            # yes/no token ids
+            self.token_yes_id = self.tokenizer.convert_tokens_to_ids("yes")
+            self.token_no_id = self.tokenizer.convert_tokens_to_ids("no")
+            # build prompt prefix and suffix
+            prefix = (
+                "<|im_start|>system\n"
+                "Judge whether the Document meets the requirements based on the Query and the Instruct provided. "
+                "Note that the answer can only be \"yes\" or \"no\".<|im_end|>\n"
+                "<|im_start|>user\n"
+            )
+            suffix = (
+                "<|im_end|>\n"
+                "<|im_start|>assistant\n"
+                "<think>\n\n</think>\n\n"
+            )
+            # store full prompt strings for batching
+            self.prefix_str = prefix
+            self.suffix_str = suffix
+            # tokenize prompt tokens
+            self.prefix_tokens = self.tokenizer.encode(prefix, add_special_tokens=False)
+            self.suffix_tokens = self.tokenizer.encode(suffix, add_special_tokens=False)
+            # compute max length
+            self.max_length = self.model.config.max_position_embeddings
 
     @component.output_types(documents=List[Document])
     def run(
@@ -123,17 +133,20 @@ class QwenYesNoReranker:
                 max_length=self.max_length,
                 add_special_tokens=False,
             )
-            # move to device
-            inputs = {k: v.to(self.device.to_torch_str()) for k, v in inputs.items()}
+            # move inputs to the model's primary device (auto-detected)
+            primary_device = next(self.model.parameters()).device
+            inputs = {k: v.to(primary_device) for k, v in inputs.items()}
             # forward
             with torch.no_grad():
-                logits = self.model(**inputs).logits[:, -1, :]
+                logits = self.model(**inputs, use_cache=False).logits[:, -1, :]
             # extract yes/no logits
             yes_logits = logits[:, self.token_yes_id]
             no_logits = logits[:, self.token_no_id]
             two_logits = torch.stack([no_logits, yes_logits], dim=1)
             probs = torch.nn.functional.softmax(two_logits, dim=1)[:, 1]
             all_scores.extend(probs.cpu().tolist())
+            del inputs, logits, yes_logits, no_logits, two_logits, probs
+            torch.cuda.empty_cache()
         # attach scores
         scored = []
         for doc, score in zip(documents, all_scores):

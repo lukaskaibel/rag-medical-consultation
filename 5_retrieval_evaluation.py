@@ -19,7 +19,7 @@
 # %pip install einops
 
 
-# In[11]:
+# In[1]:
 
 
 import os
@@ -27,6 +27,7 @@ from haystack.document_stores.in_memory import InMemoryDocumentStore
 import importlib
 from datetime import datetime
 from tqdm import tqdm
+import math
 tqdm.pandas()
 import logging
 from utils.pickle_utils import for_each_pickle_file
@@ -41,30 +42,29 @@ os.environ["SENTENCE_TRANSFORMERS_HOME"] = "./model-assets/sentence-transformers
 os.environ["HF_HUB_CACHE"] = "./model-assets/hugging-face"
 
 
-# In[ ]:
+# In[2]:
 
 
 # from config.secret import OPENAI_API_KEY
 # os.environ["OPENAI_API_KEY"] = OPENAI_API_KEY
 
 os.environ["EMBEDDING_MODEL_NAME"] = "Qwen/Qwen3-Embedding-4B"
-os.environ["RERANKING_MODEL_NAME"] = "Qwen/Qwen3-Reranker-0.6B"
+os.environ["RERANKING_MODEL_NAME"] = "Qwen/Qwen3-Reranker-4B"
 os.environ["LLM_NAME"] = "gemma3:12b"
 os.environ["LLM_CONTEXT_SIZE"] = "8192"
 
 embedder = "Qwen/Qwen3-Embedding-4B"
-reranker = "Qwen/Qwen3-Reranker-0.6B"
+reranker = "Qwen/Qwen3-Reranker-4B"
 
 TOP_K_VALUES = [5, 10, 20, 40, 80]
 NUMBER_OF_QUESTIONS_IN_EVAL = 600
 
 
-# In[15]:
+# In[3]:
 
 
 from pipelines.evaluation.base_retrieval_eval_pipeline import get_base_retrieval_eval_pipeline
 from pipelines.evaluation.hybrid_retrieval_eval_pipeline import get_hybrid_retrieval_eval_pipeline
-from pipelines.evaluation.context__retrieval_eval_pipeline import get_context_retrieval_eval_pipeline
 from pipelines.evaluation.random_retrieval_eval_pipeline import get_random_retrieval_eval_pipeline
 from models import EmbeddingModelConfig, EmbeddingModelProvider, RerankingModelConfig, RerankingModelProvider
 
@@ -79,22 +79,37 @@ def get_test_cases(splitting_strategy: str):
         },
         {
             "name": "Basic RAG",
-            "pipeline": get_base_retrieval_eval_pipeline(base_indexing_store, EmbeddingModelConfig(name=embedder, provider=EmbeddingModelProvider.SENTENCE_TRANSFORMER), RerankingModelConfig(name=reranker, provider=RerankingModelProvider.HUGGING_FACE)),
+            "pipeline": get_base_retrieval_eval_pipeline(
+                base_indexing_store, 
+                EmbeddingModelConfig(name=embedder, provider=EmbeddingModelProvider.SENTENCE_TRANSFORMER), 
+                RerankingModelConfig(name=reranker, provider=RerankingModelProvider.HUGGING_FACE),
+                rewriting_model_config=None,
+            ),
         },
         {
             "name": "Hybrid RAG",
-            "pipeline": get_hybrid_retrieval_eval_pipeline(base_indexing_store),
+            "pipeline": get_hybrid_retrieval_eval_pipeline(
+                base_indexing_store,
+                EmbeddingModelConfig(name=embedder, provider=EmbeddingModelProvider.SENTENCE_TRANSFORMER), 
+                RerankingModelConfig(name=reranker, provider=RerankingModelProvider.HUGGING_FACE),
+                rewriter_model_config=None,
+            ),
         },
         {
             "name": "Contextual RAG",
-            "pipeline": get_context_retrieval_eval_pipeline(context_indexing_store, EmbeddingModelConfig(name=embedder, provider=EmbeddingModelProvider.SENTENCE_TRANSFORMER), RerankingModelConfig(name=reranker, provider=RerankingModelProvider.HUGGING_FACE)),
+            "pipeline": get_base_retrieval_eval_pipeline(
+                context_indexing_store, 
+                EmbeddingModelConfig(name=embedder, provider=EmbeddingModelProvider.SENTENCE_TRANSFORMER), 
+                RerankingModelConfig(name=reranker, provider=RerankingModelProvider.HUGGING_FACE),
+                rewriting_model_config=None,
+            ),
         },
     ]
 
     return test_cases
 
 
-# In[16]:
+# In[4]:
 
 
 now = datetime.now()
@@ -132,7 +147,7 @@ def run_retrieval_eval(filename, df):
                 pipeline = test_case["pipeline"]
                 request_payload = {
                     "retriever": {
-                        "top_k": top_k,
+                        "top_k": math.ceil(top_k / 2) if "Hybrid" in test_case["name"] else top_k
                     },
                     "map_evaluator": {
                         "ground_truth_documents": [relevant_documents],
@@ -156,7 +171,7 @@ def run_retrieval_eval(filename, df):
                 if "bm25_retriever" in pipeline.graph.nodes:
                     request_payload["bm25_retriever"] = {
                         "query": question,
-                        "top_k": top_k,
+                        "top_k": math.floor(top_k / 2) if "Hybrid" in test_case["name"] else top_k,
                     }
                 result = pipeline.run(request_payload)
 

@@ -17,6 +17,7 @@
 # %pip install "ollama-haystack==2.4.2"
 # %pip install tqdm # For Progress Bar
 # %pip install einops
+# %pip install accelerate
 
 
 # In[2]:
@@ -44,14 +45,14 @@ os.environ["SENTENCE_TRANSFORMERS_HOME"] = "./model-assets/sentence-transformers
 os.environ["HF_HUB_CACHE"] = "./model-assets/hugging-face"
 
 
-# In[ ]:
+# In[3]:
 
 
 FINAL_TOP_K = 10 # Number of documents returned at the end of pipeline
 NUMBER_OF_QUESTIONS_IN_EVAL = 600
 
 
-# In[21]:
+# In[4]:
 
 
 test_configs = [
@@ -63,32 +64,32 @@ test_configs = [
     },
     {
         "embedding_model": EmbeddingModelConfig(name="Qwen/Qwen3-Embedding-4B", provider=EmbeddingModelProvider.SENTENCE_TRANSFORMER),
-        "reranking_model": RerankingModelConfig(name="Qwen/Qwen3-Reranker-0.6B", provider=RerankingModelProvider.HUGGING_FACE),
+        "reranking_model": RerankingModelConfig(name="Qwen/Qwen3-Reranker-4B", provider=RerankingModelProvider.HUGGING_FACE),
         "contextualizer_model": LLMConfig(name="gemma3:12b", provider=LLMProvider.OLLAMA),
         "retrieval-top-k": 10,
     },
     {
         "embedding_model": EmbeddingModelConfig(name="Qwen/Qwen3-Embedding-4B", provider=EmbeddingModelProvider.SENTENCE_TRANSFORMER),
-        "reranking_model": RerankingModelConfig(name="Qwen/Qwen3-Reranker-0.6B", provider=RerankingModelProvider.HUGGING_FACE),
+        "reranking_model": RerankingModelConfig(name="Qwen/Qwen3-Reranker-4B", provider=RerankingModelProvider.HUGGING_FACE),
         "contextualizer_model": LLMConfig(name="gemma3:12b", provider=LLMProvider.OLLAMA),
         "retrieval-top-k": 20,
     },
     {
         "embedding_model": EmbeddingModelConfig(name="Qwen/Qwen3-Embedding-4B", provider=EmbeddingModelProvider.SENTENCE_TRANSFORMER),
-        "reranking_model": RerankingModelConfig(name="Qwen/Qwen3-Reranker-0.6B", provider=RerankingModelProvider.HUGGING_FACE),
+        "reranking_model": RerankingModelConfig(name="Qwen/Qwen3-Reranker-4B", provider=RerankingModelProvider.HUGGING_FACE),
         "contextualizer_model": LLMConfig(name="gemma3:12b", provider=LLMProvider.OLLAMA),
         "retrieval-top-k": 40,
     },
-    {
-        "embedding_model": EmbeddingModelConfig(name="Qwen/Qwen3-Embedding-4B", provider=EmbeddingModelProvider.SENTENCE_TRANSFORMER),
-        "reranking_model": RerankingModelConfig(name="Qwen/Qwen3-Reranker-0.6B", provider=RerankingModelProvider.HUGGING_FACE),
-        "contextualizer_model": LLMConfig(name="gemma3:12b", provider=LLMProvider.OLLAMA),
-        "retrieval-top-k": 80,
-    },
+    # {
+    #     "embedding_model": EmbeddingModelConfig(name="Qwen/Qwen3-Embedding-4B", provider=EmbeddingModelProvider.SENTENCE_TRANSFORMER),
+    #     "reranking_model": RerankingModelConfig(name="Qwen/Qwen3-Reranker-4B", provider=RerankingModelProvider.HUGGING_FACE),
+    #     "contextualizer_model": LLMConfig(name="gemma3:12b", provider=LLMProvider.OLLAMA),
+    #     "retrieval-top-k": 80,
+    # },
 ]
 
 
-# In[22]:
+# In[ ]:
 
 
 now = datetime.now()
@@ -125,6 +126,7 @@ def run_retrieval_eval(filename, df):
                 base_indexing_store=base_indexing_store,
                 embedding_model_config=test_config["embedding_model"],
                 reranking_model_config=test_config["reranking_model"],
+                rewriting_model_config=None,
             )
             request_payload = {
                 "retriever": {
@@ -159,15 +161,15 @@ def run_retrieval_eval(filename, df):
             df.at[index, f"{test_config['reranking_model']}_{test_config['retrieval-top-k']}_mrr"] = mrr_score
             df.at[index, f"{test_config['reranking_model']}_{test_config['retrieval-top-k']}_recall"] = recall_score
 
-    save_path = f"results/retrieval/reranker/{now.strftime('%Y-%m-%d_%H-%M-%S')}.pkl"
-    os.makedirs(os.path.dirname(save_path), exist_ok=True)
-    df.to_pickle(save_path)
+        save_path = f"results/retrieval/reranker/{now.strftime('%Y-%m-%d_%H-%M-%S')}.pkl"
+        os.makedirs(os.path.dirname(save_path), exist_ok=True)
+        df.to_pickle(save_path)
 
 df = pd.read_pickle("data/qa_with_docs_flat/question_answers_docs_word_50_10_dataset_flat.pkl")
 run_retrieval_eval("question_answers_docs_word_50_10_dataset_flat.pkl", df)
 
 
-# In[24]:
+# In[3]:
 
 
 import pandas as pd
@@ -176,7 +178,7 @@ import numpy as np
 import re
 
 # 1) Load your DF
-df = pd.read_pickle("results/retrieval/reranker/2025-07-10_15-22-52.pkl")
+df = pd.read_pickle("results/retrieval/reranker/2025-07-25_17-07-02.pkl")
 
 # 2) Find all the *_map, *_mrr, *_recall columns
 score_cols = [c for c in df.columns if re.search(r"_(map|mrr|recall)$", c)]
@@ -247,7 +249,7 @@ plt.tight_layout()
 plt.show()
 
 
-# In[17]:
+# In[2]:
 
 
 df

@@ -4,15 +4,21 @@ from haystack.document_stores.in_memory import InMemoryDocumentStore
 from haystack.components.retrievers import InMemoryEmbeddingRetriever, InMemoryBM25Retriever
 from haystack.utils import ComponentDevice, Device
 from haystack.components.joiners.document_joiner import DocumentJoiner
-from haystack.components.rankers import SentenceTransformersSimilarityRanker
+from models import EmbeddingModelConfig, RerankingModelConfig, EmbeddingModelProvider, RerankingModelProvider, RewriterModelConfig
 from pipelines.components.qwen_yes_no_reranker import QwenYesNoReranker
+from typing import Optional
 import os
 
-def get_hybrid_retrieval_pipeline(document_store: InMemoryDocumentStore):
+def get_hybrid_retrieval_pipeline(
+    document_store: InMemoryDocumentStore,
+    embedding_model_config: EmbeddingModelConfig,
+    reranking_model_config: Optional[RerankingModelConfig] = None,
+    rewriter_model_config: Optional[RewriterModelConfig] = None,
+) -> Pipeline:
     pipeline = Pipeline()
 
     query_embedder = SentenceTransformersTextEmbedder(
-        model=os.environ["EMBEDDING_MODEL_NAME"],
+        model=embedding_model_config.name,
         prefix="Instruct: Given a question, retrieve relevant passages that answer the question\nQuestion:",
         device=ComponentDevice.from_single(Device.gpu(id=2)),
         model_kwargs={"torch_dtype": "float16"}
@@ -25,7 +31,7 @@ def get_hybrid_retrieval_pipeline(document_store: InMemoryDocumentStore):
     document_joiner = DocumentJoiner()
 
     reranker = QwenYesNoReranker(
-        model=os.environ["RERANKING_MODEL_NAME"],
+        model=reranking_model_config.name,
         device=ComponentDevice.from_single(Device.gpu(id=3)),
         batch_size=1,
         instruction="Given a question, retrieve all the relevant passages that answer that query",
