@@ -36,7 +36,6 @@ def get_hybrid_retrieval_pipeline(
         batch_size=1,
         instruction="Given a question, retrieve all the relevant passages that answer that query",
     )
-    reranker.warm_up()
 
     pipeline.add_component(instance=query_embedder, name="query_embedder")
     pipeline.add_component(instance=bm25_retriever, name="bm25_retriever")

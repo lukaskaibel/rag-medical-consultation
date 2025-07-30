@@ -23,7 +23,7 @@ def get_base_retrieval_pipeline(
         query_embedder = SentenceTransformersTextEmbedder(
             model=embedding_model_config.name,
             prefix="Instruct: Given a question, retrieve relevant passages that answer the question\nQuestion:",
-            device=ComponentDevice.from_single(Device.gpu(id=2)),
+            device=ComponentDevice.from_single(Device.gpu(id=1)),
             model_kwargs={"torch_dtype": "float16"}
         )
         query_embedder.warm_up()

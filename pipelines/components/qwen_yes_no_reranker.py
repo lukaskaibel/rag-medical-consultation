@@ -50,7 +50,7 @@ class QwenYesNoReranker:
     def get_model(model: str):
         if QwenYesNoReranker._model_instance == None:
             QwenYesNoReranker._model_instance = AutoModelForCausalLM.from_pretrained(
-                model, torch_dtype=torch.float16, device_map="sequential"
+                model, torch_dtype=torch.float16
             )
         return QwenYesNoReranker._model_instance
 
@@ -66,6 +66,7 @@ class QwenYesNoReranker:
                 self.tokenizer.padding_side = self.padding_side
             # model
             self.model = QwenYesNoReranker.get_model(self.model_name)
+            self.model = self.model.to(self.device.to_torch())
             # disable past_key_values caching to free memory across iterations
             self.model.config.use_cache = False
             self.model.eval()

@@ -48,19 +48,15 @@ os.environ["HF_HUB_CACHE"] = "./model-assets/hugging-face"
 # from config.secret import OPENAI_API_KEY
 # os.environ["OPENAI_API_KEY"] = OPENAI_API_KEY
 
-os.environ["EMBEDDING_MODEL_NAME"] = "Qwen/Qwen3-Embedding-4B"
-os.environ["RERANKING_MODEL_NAME"] = "Qwen/Qwen3-Reranker-4B"
-os.environ["LLM_NAME"] = "gemma3:12b"
-os.environ["LLM_CONTEXT_SIZE"] = "8192"
-
-embedder = "Qwen/Qwen3-Embedding-4B"
-reranker = "Qwen/Qwen3-Reranker-4B"
+embedder = "Qwen/Qwen3-Embedding-8B"
+contextualizer = "gemma3:27b"
+reranker = "Qwen/Qwen3-Reranker-8B"
 
 TOP_K_VALUES = [5, 10, 20, 40, 80]
 NUMBER_OF_QUESTIONS_IN_EVAL = 600
 
 
-# In[3]:
+# In[ ]:
 
 
 from pipelines.evaluation.base_retrieval_eval_pipeline import get_base_retrieval_eval_pipeline
@@ -69,8 +65,8 @@ from pipelines.evaluation.random_retrieval_eval_pipeline import get_random_retri
 from models import EmbeddingModelConfig, EmbeddingModelProvider, RerankingModelConfig, RerankingModelProvider
 
 def get_test_cases(splitting_strategy: str):
-    base_indexing_store = InMemoryDocumentStore.load_from_disk(f"data/document_stores/{os.environ['EMBEDDING_MODEL_NAME']}/base/{splitting_strategy}_indexing_store.json")
-    context_indexing_store = InMemoryDocumentStore.load_from_disk(f"data/document_stores/{os.environ['EMBEDDING_MODEL_NAME']}/context/{os.environ['LLM_NAME']}/{splitting_strategy}_indexing_store.json")
+    base_indexing_store = InMemoryDocumentStore.load_from_disk(f"data/document_stores/{embedder}/base/{splitting_strategy}_indexing_store.json")
+    context_indexing_store = InMemoryDocumentStore.load_from_disk(f"data/document_stores/{embedder}/context/{contextualizer}/{splitting_strategy}_indexing_store.json")
 
     test_cases = [
         {
@@ -96,7 +92,7 @@ def get_test_cases(splitting_strategy: str):
             ),
         },
         {
-            "name": "Contextual RAG",
+            "name": "Document Context RAG",
             "pipeline": get_base_retrieval_eval_pipeline(
                 context_indexing_store, 
                 EmbeddingModelConfig(name=embedder, provider=EmbeddingModelProvider.SENTENCE_TRANSFORMER), 
@@ -109,7 +105,7 @@ def get_test_cases(splitting_strategy: str):
     return test_cases
 
 
-# In[4]:
+# In[ ]:
 
 
 now = datetime.now()
@@ -183,16 +179,10 @@ def run_retrieval_eval(filename, df):
                 df.at[index, f"{test_case['name']}_mrr"] = mrr_score
                 df.at[index, f"{test_case['name']}_recall"] = recall_score
 
-        embedding_model_name = os.environ['EMBEDDING_MODEL_NAME'].replace('/', '')
+        embedding_model_name = embedder.replace('/', '')
         save_path = f"results/retrieval/{now.strftime('%Y-%m-%d_%H-%M-%S')}/{embedding_model_name}/{splitting_strategy}/topk_{top_k}.pkl"
         os.makedirs(os.path.dirname(save_path), exist_ok=True)
         df.to_pickle(save_path)
 
 for_each_pickle_file("data/qa_with_docs_flat", run_retrieval_eval)
-
-
-# In[ ]:
-
-
-
 

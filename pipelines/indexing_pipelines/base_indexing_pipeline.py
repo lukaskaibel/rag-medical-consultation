@@ -5,6 +5,7 @@ from haystack.document_stores.in_memory import InMemoryDocumentStore
 from haystack.components.writers import DocumentWriter
 from haystack.utils import ComponentDevice, Device
 from models import EmbeddingModelConfig, EmbeddingModelProvider
+import torch
 
 def get_base_indexing_pipeline(document_store: InMemoryDocumentStore, embedding_model_config: EmbeddingModelConfig):
     pipeline = Pipeline()
@@ -14,7 +15,8 @@ def get_base_indexing_pipeline(document_store: InMemoryDocumentStore, embedding_
             model=embedding_model_config.name,
             prefix="",
             device=ComponentDevice.from_single(Device.gpu(id=0)),
-            model_kwargs={"torch_dtype": "float16"}
+            model_kwargs={"torch_dtype": "float16"},
+            batch_size=8,
         )
         document_embedder.warm_up()
     elif embedding_model_config.provider == EmbeddingModelProvider.OPENAI:

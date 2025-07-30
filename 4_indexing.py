@@ -5,14 +5,14 @@
 # 
 # This part indexes documents (creates embedding and stores them in a Haystack DocumentStore). It uses different indexing variant s.a. normal indexing and contextualized indexing (used later for contextual RAG evaluation).
 
-# In[ ]:
+# In[1]:
 
 
-import os
-# Setting temp dir to /srv/data directory, as it otherwise fills up the home directory too much
-# Just comment out on machines that are not "Goober"
-os.environ["TMPDIR"] = "/srv/data/tmp"
-os.makedirs("/srv/data/tmp", exist_ok=True)
+# import os
+# # Setting temp dir to /srv/data directory, as it otherwise fills up the home directory too much
+# # Just comment out on machines that are not "Goober"
+# os.environ["TMPDIR"] = "/srv/data/tmp"
+# os.makedirs("/srv/data/tmp", exist_ok=True)
 
 # %pip install haystack-ai
 # %pip install nltk
@@ -24,7 +24,7 @@ os.makedirs("/srv/data/tmp", exist_ok=True)
 # %pip install tqdm # For Progress Bar
 
 
-# In[1]:
+# In[2]:
 
 
 import os
@@ -56,25 +56,25 @@ logging.getLogger("transformers").setLevel(logging.WARNING)
 logging.getLogger("ragas").setLevel(logging.WARNING)
 
 
-# In[2]:
+# In[3]:
 
 
 from config.secret import OPENAI_API_KEY
 os.environ["OPENAI_API_KEY"] = OPENAI_API_KEY
 os.environ["SENTENCE_TRANSFORMERS_HOME"] = "./model-assets/sentence-transformers"
-os.environ["LLM_CONTEXT_SIZE"] = "8192"
+os.environ["LLM_CONTEXT_SIZE"] = "40000"
 
 
-embedding_model_name = "text-embedding-3-large"
-embedding_model_provider = EmbeddingModelProvider.OPENAI
+embedding_model_name = "Qwen/Qwen3-Embedding-8B"
+embedding_model_provider = EmbeddingModelProvider.SENTENCE_TRANSFORMER
 
-contexualization_model_name = "gpt-4.1-mini"
-contexualization_model_provider = LLMProvider.OPEN_AI
+contexualization_model_name = "gemma3:27b"
+contexualization_model_provider = LLMProvider.OLLAMA
 
 
 # Check maximum passage length so make sure every chunk fits in the context.
 
-# In[5]:
+# In[4]:
 
 
 df = pd.read_pickle("data/preprocessed_documents/docs_passage_1_0.pkl")
@@ -100,6 +100,8 @@ doc_contents.apply(len).max()
 #         },
 #     })
 
+#     del base_indexing_pipeline
+
 #     filepath = f"data/document_stores/{embedding_model_name}/base"
 #     os.makedirs(filepath, exist_ok=True)
 #     clean_name = os.path.splitext(os.path.basename(filename))[0]
@@ -110,13 +112,7 @@ doc_contents.apply(len).max()
 
 # ## Context Indexing
 
-# In[ ]:
-
-
-
-
-
-# In[3]:
+# In[6]:
 
 
 def context_indexing(filename, df):
@@ -125,8 +121,8 @@ def context_indexing(filename, df):
     context_indexing_store = InMemoryDocumentStore(embedding_similarity_function="cosine")
     context_indexing_pipeline = get_context_indexing_pipeline(
         context_indexing_store, 
-        embedding_model_config=EmbeddingModelConfig(name=embedding_model_name, provider=EmbeddingModelProvider.OPENAI), 
-        contextualizer_model_config=LLMConfig(name=contexualization_model_name, provider=LLMProvider.OPEN_AI)
+        embedding_model_config=EmbeddingModelConfig(name=embedding_model_name, provider=EmbeddingModelProvider.SENTENCE_TRANSFORMER), 
+        contextualizer_model_config=LLMConfig(name=contexualization_model_name, provider=LLMProvider.OLLAMA)
     )
 
     def index_with_context(filename, bytes):
@@ -190,7 +186,7 @@ for_each_pickle_file("data/preprocessed_documents", context_indexing)
 
 # ## Validation
 
-# In[10]:
+# In[ ]:
 
 
 # base_documents = base_indexing_store.filter_documents()
@@ -198,7 +194,7 @@ base_documents = InMemoryDocumentStore.load_from_disk("data/document_stores/Qwen
 contextualized_documents = InMemoryDocumentStore.load_from_disk("data/document_stores/Qwen/Qwen3-Embedding-4B/context/gpt-4.1-mini/docs_passage_1_0_indexing_store.json").filter_documents()
 
 
-# In[11]:
+# In[ ]:
 
 
 import numpy as np
@@ -218,7 +214,7 @@ print(f"Base documents - Mean: {base_mean:.2f} chars, Std Dev: {base_std:.2f}")
 print(f"Contextualized documents - Mean: {contextualized_mean:.2f} chars, Std Dev: {contextualized_std:.2f}")
 
 
-# In[12]:
+# In[ ]:
 
 
 [document.content for document in contextualized_documents]
