@@ -5,7 +5,7 @@
 # 
 # This part indexes documents (creates embedding and stores them in a Haystack DocumentStore). It uses different indexing variant s.a. normal indexing and contextualized indexing (used later for contextual RAG evaluation).
 
-# In[1]:
+# In[ ]:
 
 
 # import os
@@ -14,9 +14,9 @@
 # os.environ["TMPDIR"] = "/srv/data/tmp"
 # os.makedirs("/srv/data/tmp", exist_ok=True)
 
-# %pip install haystack-ai
+# %pip install haystack-ai==2.16.1
 # %pip install nltk
-# %pip install openai
+# %pip install openai==1.99.7
 # %pip install pandas
 # %pip install sentence-transformers
 # %pip install hf_xet
@@ -56,7 +56,7 @@ logging.getLogger("transformers").setLevel(logging.WARNING)
 logging.getLogger("ragas").setLevel(logging.WARNING)
 
 
-# In[3]:
+# In[ ]:
 
 
 from config.secret import OPENAI_API_KEY
@@ -68,13 +68,13 @@ os.environ["LLM_CONTEXT_SIZE"] = "40000"
 embedding_model_name = "Qwen/Qwen3-Embedding-8B"
 embedding_model_provider = EmbeddingModelProvider.SENTENCE_TRANSFORMER
 
-contexualization_model_name = "gemma3:27b"
-contexualization_model_provider = LLMProvider.OLLAMA
+contexualization_model_name = "gpt-5-mini-2025-08-07"
+contexualization_model_provider = LLMProvider.OPEN_AI
 
 
 # Check maximum passage length so make sure every chunk fits in the context.
 
-# In[4]:
+# In[ ]:
 
 
 df = pd.read_pickle("data/preprocessed_documents/docs_passage_1_0.pkl")
@@ -85,34 +85,9 @@ doc_contents.apply(len).max()
 
 # ## Base Indexing
 
-# In[ ]:
-
-
-# def base_indexing(filename, df):
-#     documents = df["document"].tolist()
-
-#     base_indexing_store = InMemoryDocumentStore(embedding_similarity_function="cosine")
-#     base_indexing_pipeline = get_base_indexing_pipeline(base_indexing_store, EmbeddingModelConfig(name=embedding_model_name, provider=embedding_model_provider))
-
-#     base_indexing_pipeline.run({
-#         "embedder": { 
-#             "documents": documents
-#         },
-#     })
-
-#     del base_indexing_pipeline
-
-#     filepath = f"data/document_stores/{embedding_model_name}/base"
-#     os.makedirs(filepath, exist_ok=True)
-#     clean_name = os.path.splitext(os.path.basename(filename))[0]
-#     base_indexing_store.save_to_disk(f"{filepath}/{clean_name}_indexing_store.json")
-
-# for_each_pickle_file("data/preprocessed_documents", base_indexing)
-
-
 # ## Context Indexing
 
-# In[6]:
+# In[ ]:
 
 
 def context_indexing(filename, df):
@@ -122,7 +97,7 @@ def context_indexing(filename, df):
     context_indexing_pipeline = get_context_indexing_pipeline(
         context_indexing_store, 
         embedding_model_config=EmbeddingModelConfig(name=embedding_model_name, provider=EmbeddingModelProvider.SENTENCE_TRANSFORMER), 
-        contextualizer_model_config=LLMConfig(name=contexualization_model_name, provider=LLMProvider.OLLAMA)
+        contextualizer_model_config=LLMConfig(name=contexualization_model_name, provider=contexualization_model_provider)
     )
 
     def index_with_context(filename, bytes):
@@ -152,30 +127,49 @@ for_each_pickle_file("data/preprocessed_documents", context_indexing)
 # In[ ]:
 
 
-# old_embedding_model_name = "Qwen/Qwen3-Embedding-4B"
-# old_llm_name = "gemma3:12b"
-# old_store = InMemoryDocumentStore.load_from_disk(f"data/document_stores/{old_embedding_model_name}/context_indexing_store.json")
+# from utils.json_utils import for_each_document_store
+# from pipelines.indexing_pipelines.base_indexing_pipeline import get_base_indexing_pipeline
+# from models import EmbeddingModelProvider, EmbeddingModelConfig
+# from haystack.document_stores.in_memory import InMemoryDocumentStore
+# from config.secret import OPENAI_API_KEY
+# import os
 
-# contextualized_documents = old_store.filter_documents()
+# os.environ["OPENAI_API_KEY"] = OPENAI_API_KEY
+
+# contextualizer_model_name = "gemma3:27b"
+
+# old_embedding_model_name = "Qwen/Qwen3-Embedding-8B"
+
+# new_embedding_model_name = "text-embedding-3-large"
+# new_embedding_model_provider = EmbeddingModelProvider.OPENAI
+
+# def embeddings_for_contextualized_chunks(filename, old_store):
+#     contextualized_documents = old_store.filter_documents()
+
+#     context_indexing_store = InMemoryDocumentStore(embedding_similarity_function="cosine")
+#     base_indexing_pipeline = get_base_indexing_pipeline(
+#         context_indexing_store, 
+#         EmbeddingModelConfig(new_embedding_model_name, new_embedding_model_provider)
+#     )
+#     base_indexing_pipeline.run({
+#         "embedder": { 
+#             "documents": contextualized_documents
+#         },
+#     })
+
+#     filepath = f"data/document_stores/{new_embedding_model_name}/context/{contextualizer_model_name}"
+#     os.makedirs(filepath, exist_ok=True)
+#     context_indexing_store.save_to_disk(f"{filepath}/{filename}")
+
+
+# for_each_document_store(f"data/document_stores/{old_embedding_model_name}/context/{contextualizer_model_name}", embeddings_for_contextualized_chunks)
 
 
 # In[ ]:
 
 
-# from pipelines.indexing_pipelines.base_indexing_pipeline import get_base_indexing_pipeline
 
-# context_indexing_store = InMemoryDocumentStore(embedding_similarity_function="cosine")
 
-# base_indexing_pipeline = get_base_indexing_pipeline(context_indexing_store)
-# base_indexing_pipeline.run({
-#     "embedder": { 
-#         "documents": contextualized_documents
-#     },
-# })
-
-# filepath = f"data/document_stores/{os.environ['EMBEDDING_MODEL_NAME']}/context/{os.environ['LLM_NAME']}"
-# os.makedirs(filepath, exist_ok=True)
-# context_indexing_store.save_to_disk(f"{filepath}/indexing_store.json")
 
 
 # In[ ]:

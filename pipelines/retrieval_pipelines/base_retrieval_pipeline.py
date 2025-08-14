@@ -23,7 +23,7 @@ def get_base_retrieval_pipeline(
         query_embedder = SentenceTransformersTextEmbedder(
             model=embedding_model_config.name,
             prefix="Instruct: Given a question, retrieve relevant passages that answer the question\nQuestion:",
-            device=ComponentDevice.from_single(Device.gpu(id=1)),
+            device=ComponentDevice.from_single(Device.gpu(id=3)),
             model_kwargs={"torch_dtype": "float16"}
         )
         query_embedder.warm_up()
@@ -46,7 +46,7 @@ def get_base_retrieval_pipeline(
         if reranking_model_config.provider == RerankingModelProvider.HUGGING_FACE:
             reranker = QwenYesNoReranker(
                 model=reranking_model_config.name,
-                device=ComponentDevice.from_single(Device.gpu(id=3)),
+                device=ComponentDevice.from_single(Device.gpu(id=2)),
                 batch_size=1,
                 instruction="Given a question, retrieve all the relevant passages that answer that query",
             )
@@ -63,7 +63,7 @@ def get_base_retrieval_pipeline(
         rewriter = QueryRewriter(
             rewriter_model_config.prompt,
             rewriter_model_config.llm_config,
-            generation_kwargs={ "temperature": 0.0, "num_ctx": int(os.environ["LLM_CONTEXT_SIZE"]) },
+            generation_kwargs={ "temperature": 0.0, "num_ctx": 40000 },
             keep_alive=-1
         )
         pipeline.add_component("rewriter", rewriter)

@@ -45,10 +45,6 @@ class Contextualiser():
         elif self.llm_model_config.provider == LLMProvider.OPEN_AI:
             generator = OpenAIGenerator(
                 model=self.llm_model_config.name,
-                generation_kwargs={
-                    "temperature": self.generation_kwargs["temperature"],
-                    "max_tokens": self.generation_kwargs["num_ctx"]
-                }
             )
 
         for document in documents:
