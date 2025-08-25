@@ -24,7 +24,6 @@ def get_base_rag_pipeline(document_store: InMemoryDocumentStore):
 
     ollama_generator = OllamaChatGenerator(
         model=os.environ["LLM_NAME"],
-        url="",
         generation_kwargs={ "temperature": 0.0, "num_ctx": int(os.environ["LLM_CONTEXT_SIZE"]) }, 
         keep_alive=-1
     )

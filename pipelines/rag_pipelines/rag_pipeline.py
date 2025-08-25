@@ -41,6 +41,7 @@ def get_rag_pipeline(
         generator = OpenAIChatGenerator(
             model=llm_config.name,
             generation_kwargs=generation_kwargs,
+            timeout=60,
         )
     else:
         raise ValueError("LLM Provider not supported")
