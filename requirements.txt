@@ -1,0 +1,35 @@
+# Core
+haystack-ai==2.16.1
+openai==1.99.7
+pandas>=2.2.0
+numpy>=1.26.0
+tqdm>=4.66.0
+python-dotenv>=1.0.1
+ipython>=8.12
+ipykernel>=6.29
+
+# NLP / Embeddings / Reranking
+sentence-transformers>=3.0.0
+nltk>=3.8.1
+rapidfuzz>=3.9.0
+
+# Visualization & analysis
+matplotlib>=3.8.0
+seaborn>=0.13.0
+
+# Haystack ecosystem extras
+ollama-haystack==2.4.2
+ragas-haystack>=0.1.7
+
+# Markdown processing (dataset generation utilities)
+markdown-it-py>=3.0.0
+mdit_plain>=1.0.0
+
+# Notebooks execution utilities
+nbformat>=5.10.0
+nbclient>=0.10.0
+
+# Optional helpers
+hf_xet>=0.5.5
+einops>=0.7.0
+accelerate>=0.33.0

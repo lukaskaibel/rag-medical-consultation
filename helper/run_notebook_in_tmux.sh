@@ -18,16 +18,24 @@ if ! command -v python >/dev/null 2>&1; then
   exit 1
 fi
 
-# Path to the Python runner script (adjust if in another directory)
-RUNNER_SCRIPT="run_notebook_as_script.py"
+# Resolve script directory and runner path relative to this file
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+RUNNER_SCRIPT="$SCRIPT_DIR/run_notebook_as_script.py"
 
 if [ ! -f "$RUNNER_SCRIPT" ]; then
   echo "Runner script '$RUNNER_SCRIPT' not found in current directory."
   exit 1
 fi
 
-# Start new tmux session and run the script
-tmux new-session -d -s "$SESSION_NAME" "python $RUNNER_SCRIPT \"$NOTEBOOK\"; read -n 1 -s -r -p 'Press any key to exit...'" 
+# Try to activate project venv if present
+PROJECT_ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"
+ACTIVATE_VENV=""
+if [ -f "$PROJECT_ROOT/.venv/bin/activate" ]; then
+  ACTIVATE_VENV="source $PROJECT_ROOT/.venv/bin/activate && "
+fi
+
+# Start new tmux session and run the script from notebooks dir
+tmux new-session -d -s "$SESSION_NAME" "cd $SCRIPT_DIR && ${ACTIVATE_VENV}python $RUNNER_SCRIPT \"$NOTEBOOK\"; read -n 1 -s -r -p 'Press any key to exit...'" 
 
 echo "✅ Started notebook in tmux session '$SESSION_NAME'."
 echo "You can attach to it anytime with:"

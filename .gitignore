@@ -1,4 +1,5 @@
 secret.py
+.env
 .venv
 __pycache__
 model-assets
