@@ -3,3 +3,4 @@ secret.py
 __pycache__
 model-assets
 tmp*/
+.pytest_cache
