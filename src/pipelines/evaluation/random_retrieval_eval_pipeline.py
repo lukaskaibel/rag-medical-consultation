@@ -1,8 +1,8 @@
-from pipelines.retrieval_pipelines.base_retrieval_pipeline import get_base_retrieval_pipeline
-from pipelines.components.wrap_in_list_adapter import WrapInListAdapter
-from pipelines.components.evaluators import DocumentMAPEvaluator, DocumentMRREvaluator, DocumentRecallEvaluator
+from src.pipelines.retrieval_pipelines.base_retrieval_pipeline import get_base_retrieval_pipeline
+from src.pipelines.components.wrap_in_list_adapter import WrapInListAdapter
+from src.pipelines.components.evaluators import DocumentMAPEvaluator, DocumentMRREvaluator, DocumentRecallEvaluator
 from haystack.document_stores.in_memory import InMemoryDocumentStore
-from pipelines.components.random_retriever import RandomRetriever
+from src.pipelines.components.random_retriever import RandomRetriever
 from haystack import Pipeline
 
 def get_random_retrieval_eval_pipeline(document_store: InMemoryDocumentStore) -> Pipeline:

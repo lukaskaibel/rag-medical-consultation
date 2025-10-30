@@ -1,9 +1,9 @@
-from pipelines.components.wrap_in_list_adapter import WrapInListAdapter
-from pipelines.retrieval_pipelines.noreranking_retrieval_pipeline import get_base_retrieval_pipeline
-from pipelines.components.evaluators import DocumentMAPEvaluator, DocumentMRREvaluator, DocumentRecallEvaluator
+from src.pipelines.components.wrap_in_list_adapter import WrapInListAdapter
+from src.pipelines.retrieval_pipelines.base_retrieval_pipeline import get_base_retrieval_pipeline
+from src.pipelines.components.evaluators import DocumentMAPEvaluator, DocumentMRREvaluator, DocumentRecallEvaluator
 from haystack.document_stores.in_memory import InMemoryDocumentStore
 from haystack import Pipeline
-from models import EmbeddingModelConfig
+from src.models import EmbeddingModelConfig
 
 def get_base_retrieval_eval_pipeline(
     base_indexing_store: InMemoryDocumentStore,

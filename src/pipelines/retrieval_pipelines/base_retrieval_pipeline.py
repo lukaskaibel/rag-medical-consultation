@@ -6,9 +6,9 @@ from haystack.components.retrievers import InMemoryEmbeddingRetriever
 from haystack.utils import ComponentDevice, Device
 from haystack.components.joiners import BranchJoiner
 from haystack.dataclasses import Document
-from models import EmbeddingModelConfig, RerankingModelConfig, EmbeddingModelProvider, RerankingModelProvider, RewriterModelConfig
-from pipelines.components.qwen_yes_no_reranker import QwenYesNoReranker
-from pipelines.components.query_rewriter import QueryRewriter
+from src.models import EmbeddingModelConfig, RerankingModelConfig, EmbeddingModelProvider, RerankingModelProvider, RewriterModelConfig
+from src.pipelines.components.qwen_yes_no_reranker import QwenYesNoReranker
+from src.pipelines.components.query_rewriter import QueryRewriter
 from typing import Optional, List
 
 def get_base_retrieval_pipeline(

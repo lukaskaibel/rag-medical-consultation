@@ -5,7 +5,7 @@ from haystack_integrations.components.generators.ollama import OllamaChatGenerat
 from haystack.components.builders import ChatPromptBuilder
 from haystack.dataclasses import ChatMessage
 import os
-from models import LLMConfig, LLMProvider
+from src.models import LLMConfig, LLMProvider
 
 @component
 class QueryRewriter():

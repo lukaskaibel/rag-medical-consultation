@@ -4,9 +4,9 @@ from haystack.components.embedders import SentenceTransformersDocumentEmbedder, 
 from haystack.document_stores.in_memory import InMemoryDocumentStore
 from haystack.components.writers import DocumentWriter
 from haystack.utils import ComponentDevice, Device
-from pipelines.components.contextualiser import Contextualiser
-from config.prompt import CONTEXTUALISER_PROMPT
-from models import EmbeddingModelConfig, EmbeddingModelProvider, LLMConfig
+from src.pipelines.components.contextualiser import Contextualiser
+from src.config.prompt import CONTEXTUALISER_PROMPT
+from src.models import EmbeddingModelConfig, EmbeddingModelProvider, LLMConfig
 
 def get_context_indexing_pipeline(document_store: InMemoryDocumentStore, embedding_model_config: EmbeddingModelConfig, contextualizer_model_config: LLMConfig):
     pipeline = Pipeline()

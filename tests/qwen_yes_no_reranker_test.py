@@ -2,7 +2,7 @@ import pytest
 import torch
 from haystack import Document
 from haystack.utils import ComponentDevice, Device
-from pipelines.components.qwen_yes_no_reranker import QwenYesNoReranker
+from src.pipelines.components.qwen_yes_no_reranker import QwenYesNoReranker
 import os
 
 os.environ["HF_HUB_CACHE"] = "./model-assets/hugging-face"

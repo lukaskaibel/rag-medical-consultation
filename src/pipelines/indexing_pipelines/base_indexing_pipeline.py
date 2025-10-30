@@ -4,7 +4,7 @@ from haystack.components.embedders import SentenceTransformersDocumentEmbedder, 
 from haystack.document_stores.in_memory import InMemoryDocumentStore
 from haystack.components.writers import DocumentWriter
 from haystack.utils import ComponentDevice, Device
-from models import EmbeddingModelConfig, EmbeddingModelProvider
+from src.models import EmbeddingModelConfig, EmbeddingModelProvider
 import torch
 
 def get_base_indexing_pipeline(document_store: InMemoryDocumentStore, embedding_model_config: EmbeddingModelConfig):

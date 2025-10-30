@@ -5,7 +5,7 @@ from haystack_integrations.components.generators.ollama import OllamaGenerator
 from haystack.dataclasses import Document
 from haystack.components.builders import PromptBuilder
 import os
-from models import LLMConfig, LLMProvider
+from src.models import LLMConfig, LLMProvider
 
 @component
 class Contextualiser():

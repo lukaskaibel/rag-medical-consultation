@@ -1,5 +1,5 @@
 from rapidfuzz import fuzz
-from utils.string_utils import normalize
+from src.utils.string_utils import normalize
 from difflib import SequenceMatcher
 
 from concurrent.futures import ProcessPoolExecutor, as_completed

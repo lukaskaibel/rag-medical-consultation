@@ -1,5 +1,5 @@
 from haystack import Pipeline
-from pipelines.components.markdown_preprocessor import MarkdownPreprocessor
+from src.pipelines.components.markdown_preprocessor import MarkdownPreprocessor
 
 pipeline = Pipeline()
 

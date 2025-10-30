@@ -1,6 +1,6 @@
 from haystack import Pipeline
 from haystack.components.preprocessors import DocumentSplitter
-from pipelines.components.filter import Filter
+from src.pipelines.components.filter import Filter
 
 pipeline = Pipeline()
 

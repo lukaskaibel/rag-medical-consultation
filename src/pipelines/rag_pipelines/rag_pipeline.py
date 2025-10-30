@@ -4,8 +4,8 @@ from haystack.document_stores.in_memory import InMemoryDocumentStore
 from haystack.components.generators.chat import OpenAIChatGenerator
 from haystack.components.builders import ChatPromptBuilder, AnswerBuilder
 from haystack_integrations.components.generators.ollama import OllamaChatGenerator
-from models import EmbeddingModelConfig, RerankingModelConfig, RewriterModelConfig, LLMConfig, LLMProvider
-from pipelines.retrieval_pipelines.base_retrieval_pipeline import get_base_retrieval_pipeline
+from src.models import EmbeddingModelConfig, RerankingModelConfig, RewriterModelConfig, LLMConfig, LLMProvider
+from src.pipelines.retrieval_pipelines.base_retrieval_pipeline import get_base_retrieval_pipeline
 
 def get_rag_pipeline(
     llm_config: LLMConfig,

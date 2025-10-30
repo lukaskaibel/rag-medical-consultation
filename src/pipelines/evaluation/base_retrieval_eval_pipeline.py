@@ -1,9 +1,9 @@
-import pipelines.retrieval_pipelines.base_retrieval_pipeline
-from pipelines.components.wrap_in_list_adapter import WrapInListAdapter
-from pipelines.components.evaluators import DocumentMAPEvaluator, DocumentMRREvaluator, DocumentRecallEvaluator
+from src.pipelines.retrieval_pipelines import base_retrieval_pipeline
+from src.pipelines.components.wrap_in_list_adapter import WrapInListAdapter
+from src.pipelines.components.evaluators import DocumentMAPEvaluator, DocumentMRREvaluator, DocumentRecallEvaluator
 from haystack.document_stores.in_memory import InMemoryDocumentStore
 from haystack import Pipeline
-from models import EmbeddingModelConfig, RerankingModelConfig, RewriterModelConfig
+from src.models import EmbeddingModelConfig, RerankingModelConfig, RewriterModelConfig
 
 def get_base_retrieval_eval_pipeline(
     base_indexing_store: InMemoryDocumentStore,
@@ -11,7 +11,7 @@ def get_base_retrieval_eval_pipeline(
     reranking_model_config: RerankingModelConfig,
     rewriting_model_config: RewriterModelConfig,
 ) -> Pipeline:
-    base_retrieval_pipeline = pipelines.retrieval_pipelines.base_retrieval_pipeline.get_base_retrieval_pipeline(base_indexing_store, embedding_model_config, reranking_model_config, rewriting_model_config)
+    base_retrieval_pipeline = base_retrieval_pipeline.get_base_retrieval_pipeline(base_indexing_store, embedding_model_config, reranking_model_config, rewriting_model_config)
 
     map_evaluator = DocumentMAPEvaluator()
     mrr_evaluator = DocumentMRREvaluator()

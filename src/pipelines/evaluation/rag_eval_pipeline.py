@@ -2,8 +2,8 @@ from haystack.document_stores.in_memory import InMemoryDocumentStore
 from haystack import Pipeline
 from haystack_integrations.components.evaluators.ragas import RagasEvaluator
 from ragas.metrics import Faithfulness, ResponseRelevancy, AnswerAccuracy
-from models import EmbeddingModelConfig, RerankingModelConfig, RewriterModelConfig, LLMConfig
-from pipelines.rag_pipelines.rag_pipeline import get_rag_pipeline
+from src.models import EmbeddingModelConfig, RerankingModelConfig, RewriterModelConfig, LLMConfig
+from src.pipelines.rag_pipelines.rag_pipeline import get_rag_pipeline
 
 def get_rag_evaluation_pipeline(
     base_indexing_store: InMemoryDocumentStore,

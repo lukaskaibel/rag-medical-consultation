@@ -1,4 +1,4 @@
-from models import LLMConfig
+from src.models import LLMConfig
 
 class RewriterModelConfig:
     def __init__(self, llm_config: LLMConfig, prompt: str):
