@@ -107,7 +107,7 @@ Caches and assets
 
 All notebooks automatically load environment variables from `.env` and share dependencies via `requirements.txt` — no inline `%pip install` required.
 
-### 🧩 Suggested Execution Order
+### Suggested Execution Order
 
 | Step | Notebook | Description |
 |------|-----------|-------------|
