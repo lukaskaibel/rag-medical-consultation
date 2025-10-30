@@ -1,11 +1,21 @@
-# PIA RAG Evaluation
+# Retrieval-Augmented Generation (RAG) for Medical Consultation
 
-A research-grade, reproducible pipeline to evaluate Retrieval-Augmented Generation (RAG) systems across retrieval and generation, developed in the context of a master’s thesis. The project compares open-source and closed-source model components (embedders, contextualizers/rewriters, rerankers) on a domain-specific corpus of German medical documents related to obstetrics (e.g., Kaiserschnitt, Einleitung der Geburt, Narkose).
+> Official research repository accompanying the master’s thesis *“Retrieval-Augmented Generation for Medical Consultation”* (Freie Universität Berlin, 2025).
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Python](https://img.shields.io/badge/python-3.10%2B-blue.svg)]()
+[![Framework: Haystack](https://img.shields.io/badge/framework-Haystack-lightgrey.svg)]()
+[![LLM: OpenAI & Qwen](https://img.shields.io/badge/LLM-OpenAI%20%7C%20Qwen-green.svg)]()
+
+**Topics:** _rag_ · _retrieval-augmented-generation_ · _llm_ · _medical-ai_ · _haystack_ · _research_ · _thesis_ · _german-language_
+
+This repository provides a **reproducible research framework** for evaluating Retrieval-Augmented Generation (RAG) systems in medical consultation settings.  
+It was developed as part of the master’s thesis *“Retrieval-Augmented Generation for Medical Consultation”* (Freie Universität Berlin, 2025) and contributes to the **PIA (Patient Information Assistant)** project, which investigates how conversational AI can support patients before and after pre-treatment consultations.
 
 ## Why this project
 
 - End-to-end RAG evaluation, from document preprocessing and QA dataset generation to retrieval metrics and generation quality analysis.
-- Side-by-side comparisons of open vs. closed components, and ablations for reranking and query rewriting.
+- Side-by-side comparisons of open vs. closed components, different RAG variants (Contextual and Hybrid RAG), and ablations for reranking and query rewriting.
 - Reproducible runs: centralized dependencies, environment variables via .env, and deterministic sampling where applicable.
 
 ## Key capabilities
@@ -35,8 +45,7 @@ A research-grade, reproducible pipeline to evaluate Retrieval-Augmented Generati
     - `5.1_retrieval_evaluation_line_passage.ipynb`
     - `5.2_retrieval_evaluation_reranker.ipynb`
     - `5.3_retrieval_evaluation_rewriting.ipynb`
-    - `5.4_retrieval_evaluation_closed_vs_open_base.ipynb`
-    - `5.5_retrieval_evaluation_closed_vs_open.ipynb`
+    - `5.4_retrieval_evaluation_closed_vs_open.ipynb`
   - `6_generation_evaluation.ipynb`
   - `6_generation_analysis.ipynb`
   - `7_analysis.ipynb`
@@ -94,29 +103,31 @@ Common variables
 Caches and assets
 - By default, model caches are directed to `./model-assets/` via environment variables to keep runs reproducible and offline-friendly.
 
-## Reproducible workflows (notebooks)
+## Reproducible Workflows (Notebooks)
 
-All notebooks start by loading `.env`. Dependencies are centralized in `requirements.txt` (no in-notebook `%pip install`).
+All notebooks automatically load environment variables from `.env` and share dependencies via `requirements.txt` — no inline `%pip install` required.
 
-Suggested execution order
-1. `1_document_preprocessing.ipynb`
-2. `2_qa_dataset_generation.ipynb`
-3. `3_question_document_matching.ipynb`
-4. `4_indexing.ipynb`
-5. Retrieval evaluation (5.x series)
-6. `6_generation_evaluation.ipynb`
-7. `6_generation_analysis.ipynb` and `7_analysis.ipynb`
+### 🧩 Suggested Execution Order
 
-Numbered retrieval notebooks (5.x)
-- 5 (baseline): `5_retrieval_evaluation.ipynb`
-- 5.1 line vs. passage: `5.1_retrieval_evaluation_line_passage.ipynb`
-- 5.2 reranker: `5.2_retrieval_evaluation_reranker.ipynb`
-- 5.3 rewriting: `5.3_retrieval_evaluation_rewriting.ipynb`
-- 5.4 closed vs. open (base): `5.4_retrieval_evaluation_closed_vs_open_base.ipynb`
-- 5.5 closed vs. open (full): `5.5_retrieval_evaluation_closed_vs_open.ipynb`
+| Step | Notebook | Description |
+|------|-----------|-------------|
+| 1 | **`1_document_preprocessing.ipynb`** | Cleans and chunks source markdown documents into retrievable text segments. |
+| 2 | **`2_qa_dataset_generation.ipynb`** | Generates diverse question variations with reference sentences and ground-truth answers. |
+| 3 | **`3_question_document_matching.ipynb`** | Maps questions to document chunks for retrieval evaluation. |
+| 4 | **`4_indexing.ipynb`** | Builds vector stores with chosen embedding models; adds contextualized chunks for Document Context RAG. |
+| 5 | **`5_retrieval_evaluation.ipynb`** | Baseline retrieval evaluation across Top-k and chunk-size settings for Basic, Hybrid, and Document Context RAG. |
+| 5.1 | **`5.1_retrieval_evaluation_line_passage.ipynb`** | Compares syntactic chunking (by line/paragraph) with fixed-length word chunking. |
+| 5.2 | **`5.2_retrieval_evaluation_reranker.ipynb`** | Ablation study evaluating the impact of reranking. |
+| 5.3 | **`5.3_retrieval_evaluation_rewriting.ipynb`** | Tests query rewriting and HyDE techniques for retrieval improvement. |
+| 5.4 | **`5.4_retrieval_evaluation_closed_vs_open.ipynb`** | Compares open-source vs. closed-source models for embeddings, contextualization, and rewriting. |
+| 6 | **`6_generation_evaluation.ipynb`** | Evaluates generation quality under different context lengths using the fixed retrieval setup. |
+| 7 | **`7_analysis.ipynb`** | Produces plots and comparative analyses from retrieval and generation results. |
 
-Running notebooks non-interactively
-- See `helper/run_notebook_in_tmux.sh` or `notebooks/run_notebook_in_tmux.sh` for batch execution patterns that activate `.venv` and run a given notebook.
+---
+
+💡 **Tip:**  
+You can execute notebooks interactively in Jupyter or run them in batch mode via  
+`helper/run_notebook_in_tmux.sh` for automated, reproducible experiments.
 
 ## Retrieval evaluation
 
@@ -135,22 +146,16 @@ Running notebooks non-interactively
 ## Reproducing headline experiments
 
 - Ensure the corresponding document stores are built in `data/document_stores/` (run `4_indexing.ipynb`).
-- Run `5.5_retrieval_evaluation_closed_vs_open.ipynb` to generate side-by-side results for open vs. closed configurations. Results are saved under `results/retrieval/open_closed/<TIMESTAMP>/`.
+- Run `5.4_retrieval_evaluation_closed_vs_open.ipynb` to generate side-by-side results for open vs. closed configurations. Results are saved under `results/retrieval/open_closed/<TIMESTAMP>/`.
 - Use `7_analysis.ipynb` (and the analysis cells at the end of 5.x) to visualize MAP/MRR/Recall comparisons.
 
 ## Testing
 
-- A minimal test scaffold exists under `tests/`. If you use pytest, you can run tests with:
+- A minimal test scaffold exists under `tests/` to test the custom component for the Qwen3 reranker. If you use pytest, you can run tests with:
 
 ```bash
 python -m pytest -q
 ```
-
-## Notes and limits
-
-- Large local models (e.g., 8B embeddings or rerankers) may require substantial RAM/VRAM. Alternatively, use remote providers as configured by environment variables.
-- Provider access (e.g., OpenAI) requires valid API keys in `.env`.
-- Some notebooks sample subsets for evaluation (e.g., a fixed number of questions); set random seeds where reproducibility matters.
 
 ## How this ties into the thesis
 
@@ -159,17 +164,16 @@ This repository implements the experimental framework described in the accompany
 If you need a citation for this codebase, please use the thesis citation and optionally add:
 
 ```
-Author Name, “Thesis Title,” Master’s Thesis, Institution, Year. Code: https://github.com/<repo or internal location>/pia-rag-eval
+Lukas Kaibel, “Retrieval-Augmented Generation for Medical Consultation” Master’s Thesis, Freie Universität Berlin, 2025. Code: https://github.com/lukaskaibel/rag-medical-consultation
 ```
 
-Replace the placeholders with the actual thesis details.
+---
 
 ## License
 
-Specify your license here (e.g., MIT, Apache-2.0) or mark as “All rights reserved” if private for thesis submission. Ensure compatibility with included models and datasets.
+This project is licensed under the **MIT License**.
 
-## Acknowledgements
+---
 
-- Haystack community for the RAG pipeline components
-- Providers and model authors (OpenAI, Qwen, Sentence Transformers, etc.)
-- Advisors and reviewers supporting the thesis work
+**Maintainer:** Lukas Kaibel  
+For questions or collaboration inquiries, feel free to open an issue or contact via GitHub.
